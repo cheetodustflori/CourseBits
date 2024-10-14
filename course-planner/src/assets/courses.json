@@ -3,7 +3,7 @@
         "name": "introduction to cs",
         "id": "101",
         "description": "this class teaches introductory topics in cs",
-        "topics": ["python", "critical thinking"],
-        "credit hours": "3"
+        "topics": ["python", "critical thinking", "Data Structures"],
+        "credit_hours": "3"
     }
 ]

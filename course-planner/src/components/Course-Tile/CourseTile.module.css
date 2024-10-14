@@ -1,0 +1,48 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px rgb(183, 183, 183);
+    height: 165px;
+    width: 240px;
+    padding: 30px 20px;
+    margin: 10px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.credithours {
+    font-family: "Inter", sans-serif;
+    color: gray;
+    
+}
+div.tag {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p.tag{
+    border-radius: 20px;
+    height: 26px;
+    width: fit-content;
+    background-color: #0C0D49;
+    color: white;
+    font-family: "Inter", sans-serif;
+    padding: 5px 9px;
+    margin-right: 5px;
+    margin-top: -0.5px;
+}
+
+meter {
+    width: 125px
+    
+}
+.courselist {
+    display: flex;
+    flex-wrap: wrap;
+}
