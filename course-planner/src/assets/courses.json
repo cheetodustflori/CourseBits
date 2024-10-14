@@ -10,6 +10,6 @@
         "prerequisites": ["cs 100"],
         "typical year students take course": ["freshman", "sophomore"],
         "sections": ["lab","lecture"]
-        
+
     }
 ]
