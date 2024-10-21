@@ -3,8 +3,8 @@
 import styles from './Details.module.css'
 
 // components for prerequisites and reviews
-import Prereqs from './SubComps'
-import Reviews from './SubComps'
+import { Reviews, Prereqs } from './SubComps';
+
 
 
 // making a template for the entire details section of the page

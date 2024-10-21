@@ -4,7 +4,7 @@
 import styles from './Details.module.css'
 
 // component template for the prerequisites buttons of the course
-export default function Prereqs ({preq}) {
+export function Prereqs ({preq}) {
     return (
         <div className={styles.prereqsLayout}> 
             {/* 
@@ -22,7 +22,7 @@ export default function Prereqs ({preq}) {
 
 
 // component template for the reviews of the course
-export default function Reviews ({rev}) {
+export function Reviews ({rev}) {
     return (
         <div className={styles.reviewsLayout}> 
             {/* 
