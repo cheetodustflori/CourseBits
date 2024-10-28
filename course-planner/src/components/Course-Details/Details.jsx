@@ -1,14 +1,54 @@
 // Component of the entire details section of the page
-
+import React from 'react';
 import styles from './Details.module.css'
 
-// components for prerequisites and reviews
+// importing Prereqs and Reviews components
 import { Reviews, Prereqs } from './SubComps';
 
 
 
 // making a template for the entire details section of the page
 export default function Details ({course}) {
+    let courseName = "$FIX THIS TEXT";
+    let courseYears = "$FIX THIS TEXT";
+    let courseConcurrent = "$FIX THIS TEXT";
+    let courseSections = "$FIX THIS TEXT";
+    let prereqsContent;
+    let reviewsContent;
+
+    if (course) {
+        if (course.name) {
+        courseName = course.name;
+        }
+        if (course.years) {
+        courseYears = course.years;
+        }
+        if (course.concurrent) {
+        courseConcurrent = course.concurrent;
+        }
+        if (course.sections) {
+        courseSections = course.sections;
+        }
+    }
+
+    // pre-req section
+    if (course && course.prereqs && course.prereqs.length > 0) {
+        prereqsContent = course.prereqs.map((item, index) => (
+            <Prereqs key={index} preq={item} />
+        ));
+        } else {
+        prereqsContent = <p>No prerequisites available</p>;
+    }
+
+    // review section
+    if (course && course.reviews && course.reviews.length > 0) {
+        reviewsContent = course.reviews.map((review, index) => (
+          <Reviews key={index} rev={review} />
+        ));
+      } else {
+        reviewsContent = <p>No reviews available</p>;
+    }
+
     return (
         <div className={styles.detailsLayout}> 
             {/* Details Section */}
@@ -20,11 +60,11 @@ export default function Details ({course}) {
                                 - sections: does this course have lecture/lab/discussion
                                 ~JL
              */}
-            <h1> Details: #FIX THIS TEXT</h1>
-            <h4> Typical Years: #FIX THIS TEXT</h4>
-            <h4> Concurrent With: #FIX THIS TEXT</h4>
-            <h4> Sections: #FIX THIS TEXT</h4> 
-            <br></br>
+            <h1>Details: {courseName}</h1>
+            <h4>Typical Years: {courseYears}</h4>
+            <h4>Concurrent With: {courseConcurrent}</h4>
+            <h4>Sections: {courseSections}</h4>
+            <br />
 
 
             {/* Prerequisites Section */}
@@ -35,14 +75,20 @@ export default function Details ({course}) {
                     <Prereqs preq={item}></Prereqs>
                 ))}
             </div> */}
-            <br></br>
+            <div className = {styles.prereqsContainer}>
+                {prereqsContent}
+            </div>
+            <br />
 
 
             {/* Reviews Section */}
             <h1> Reviews: </h1>
-             <h1> Reviews: </h1>
+            {/* <h1> Reviews: </h1> */}
             {/* Dev Note: not sure how to pull info for this ~JL */}
-            <br></br>
+            <div className = {styles.reviewsContainer}>
+                {reviewsContent}
+            </div>
+            <br />
         </div>
     );
 }
