@@ -2,8 +2,14 @@
     {
         "name": "introduction to cs",
         "id": "101",
+        "credit hours": "3",
         "description": "this class teaches introductory topics in cs",
         "topics": ["python", "critical thinking"],
-        "credit hours": "3"
+        "difficulty rating": "1,5",
+        "favorite": "true",
+        "prerequisites": ["cs 100"],
+        "typical year students take course": ["freshman", "sophomore"],
+        "sections": ["lab","lecture"]
+        
     }
 ]
