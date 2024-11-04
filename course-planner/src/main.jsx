@@ -1,10 +1,8 @@
-import { StrictMode } from 'react';
-import { createRoot } from 'react-dom/client';
-// Importing Router components
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; 
 import Header from './components/Header/Header.jsx';
 import Details from './components/Course-Details/Details.jsx';
-
 // Router -> wraps entire app and allows routing
 // Routes & Route -> define individual routes for different components
 

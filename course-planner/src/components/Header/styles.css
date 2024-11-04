@@ -1,0 +1,33 @@
+.cirlce{
+    width: 58px;
+    height: 58px;
+    background-color: red;
+    border-radius: 50%;
+}
+#cirle{
+    position: absolute;
+    top: 2%;
+    left: 1%
+}
+.redbox{
+    width: 97%;
+    height: 15px;
+    background: linear-gradient(to right,red,pink);
+    border-radius: 7px;
+    box-shadow: inset 0px 1px 2px #888888;
+}
+#redboxs{
+    position: relative;
+    top: 20%;
+    left: 2%;
+}
+#text{
+    position: relative;
+    left: 6%;
+}
+#uictext{
+    position: relative;
+    left: 18%;
+    text-shadow: 0px 2px 2px #888888;
+    font-family: 'Trebuchet MS', 'sans-serif';
+}
