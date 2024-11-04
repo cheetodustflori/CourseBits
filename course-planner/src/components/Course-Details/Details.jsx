@@ -5,8 +5,6 @@ import styles from './Details.module.css'
 // importing Prereqs and Reviews components
 import { Reviews, Prereqs } from './SubComps';
 
-
-
 // making a template for the entire details section of the page
 export default function Details ({course}) {
     let courseName = "$FIX THIS TEXT";
