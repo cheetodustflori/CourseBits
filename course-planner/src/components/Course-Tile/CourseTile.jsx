@@ -17,14 +17,16 @@ function Tag() {
 
 export default function CourseTile({ courseTile }) {
     return (
-        <Link to={`/course/${courseTile.id}`} className={styles.layout}>
+        <div className={styles.layout}>
             <div className={styles.top}>
-                <span>CS {courseTile.id}</span> 
-                <meter></meter> 
+                <Link to={`/course/${courseTile.id}`} className={styles.courseLink}>
+                    CS {courseTile.id}
+                </Link>
+                <meter></meter>
                 <span className={styles.credithours}>{courseTile.credit_hours}</span>
             </div>
-            <p>{courseTile.name}</p>
+            <p className={styles.courseName}>{courseTile.name}</p>
             <Tag />
-        </Link>
+        </div>
     );
 }

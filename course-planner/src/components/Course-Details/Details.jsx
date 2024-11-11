@@ -7,21 +7,22 @@ import styles from './Details.module.css';
 import { Reviews, Prereqs } from './SubComps';
 
 export default function Details() {
-    const { id } = useParams();
+    const { id } = useParams(); // Get the course ID from the URL
     const [course, setCourse] = useState(null);
 
     useEffect(() => {
-        // Fetch course data by ID. If you’re using a JSON file, filter it locally.
+        // Fetch or filter the course data by ID
         fetch('/path-to-your-json-file/courses.json')
             .then(response => response.json())
             .then(data => {
+                // Find the course by ID, assuming IDs are numeric
                 const courseData = data.find(course => course.id === parseInt(id));
                 setCourse(courseData);
             })
             .catch(error => console.error("Error fetching course data:", error));
-    }, [id]);
+    }, [id]); // Rerun the effect when the ID changes
 
-    if (!course) return <p>Loading...</p>;
+    if (!course) return <p>Loading...</p>; // Show a loading message while data is being fetched
 
     return (
         <div className={styles.detailsLayout}>
