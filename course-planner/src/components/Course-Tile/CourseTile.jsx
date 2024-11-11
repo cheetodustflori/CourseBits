@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import styles from './CourseTile.module.css';
+import courseInfo from '../../assets/courses.json';
 
 function Tag() {
     const topicList = courseInfo[0].topics;
