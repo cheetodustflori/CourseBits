@@ -1,7 +1,8 @@
-import "./styles.css";
+import "../../styles.css";
 
 export default function Header() {
   return (
+        <body>
         <header>
           <div id="red-box"></div>
 
@@ -11,5 +12,23 @@ export default function Header() {
 
           <div id="text">Computer Science Courses: By the Students</div>
         </header>
+        
+        <div class = "button-container" id = "buttonspot">
+          <button class = "button"> Engineering Requirements</button>
+          <button class = "button"> Technical Electives</button>
+        </div>
+
+        <div class = "sidebar">
+          <h3>Difficulty Rating</h3>
+        <div class = "rating">
+          <span class = "difficulty-bar"></span>
+        </div>
+          <h3>Student Favorites</h3>
+          <span class = "favorite-icon"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoyVa2yhKbQ7oSMqi-KirWdim3b6hnXI9J5g&s" style={{width: 25, height: 25}}></img></span>
+          <h3>Course Topics</h3>
+          <span class = "course-topic">Topic</span>
+        </div> 
+
+        </body>
   );
 }
