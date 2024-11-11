@@ -1,33 +1,52 @@
-.cirlce{
-    width: 58px;
-    height: 58px;
+header {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    height: 80px;
+    box-shadow: 0px 2px 3px #888888;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#circle{
+    position: absolute;
+    margin-left: 5px;
+    width: 55px;
+    height: 55px;
     background-color: red;
     border-radius: 50%;
+    line-height: 1.5px;
+    justify-content: center;
 }
-#cirle{
-    position: absolute;
-    top: 2%;
-    left: 1%
+
+#uic-text{
+    position: relative;
+    font-size: 24px;
+    text-shadow: 0px 2px 2px #888888;
+    font-family: 'Trebuchet MS', 'sans-serif';
+    padding: 5px;
+    padding-left: 8px;
+    color: white;
 }
-.redbox{
+
+#red-box{
+    position: relative;
     width: 97%;
     height: 15px;
-    background: linear-gradient(to right,red,pink);
+    background: linear-gradient(to right, #b91414,rgb(249, 129, 129));
     border-radius: 7px;
     box-shadow: inset 0px 1px 2px #888888;
-}
-#redboxs{
-    position: relative;
     top: 20%;
     left: 2%;
 }
+
 #text{
+    font-weight: bold;
+    font-size: 16px;
     position: relative;
-    left: 6%;
-}
-#uictext{
-    position: relative;
-    left: 18%;
-    text-shadow: 0px 2px 2px #888888;
-    font-family: 'Trebuchet MS', 'sans-serif';
+    margin-left: 50px;
+    padding: 15px;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
 }
