@@ -12,7 +12,7 @@ export default function Details() {
 
     useEffect(() => {
         // Fetch or filter the course data by ID
-        fetch('/path-to-your-json-file/courses.json')
+        fetch('/src/assets/courses.json')
             .then(response => response.json())
             .then(data => {
                 // Find the course by ID, assuming IDs are numeric

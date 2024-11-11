@@ -1,14 +1,30 @@
 [
     {
-        "name": "introduction to cs",
-        "id": "101",
-        "credit_hours": "3",
-        "description": "this class teaches introductory topics in cs",
+        "id": 101,
+        "name": "Introduction to CS",
+        "credit_hours": 3,
+        "description": "This class teaches introductory topics in CS",
         "topics": ["python", "critical thinking"],
-        "difficulty rating": "1,5",
-        "favorite": "true",
-        "prerequisites": ["cs 100"],
-        "typical year students take course": ["freshman", "sophomore"],
-        "sections": ["lab","lecture"]
+        "difficulty_rating": 1.5,
+        "favorite": true,
+        "prereqs": [
+            {
+                "courseNumber": "CS 100",
+                "courseName": "Foundations of Computing",
+                "courseHours": 3
+            }
+        ],
+        "years": ["Freshman", "Sophomore"],
+        "concurrent": "None",
+        "sections": ["Lab", "Lecture"],
+        "reviews": [
+            {
+                "studentName": "Florianne Che",
+                "difficulty": 3,
+                "interest": 4,
+                "workload": 2,
+                "usefulness": 5
+            }
+        ]
     }
 ]
