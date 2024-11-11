@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import styles from './CourseTile.module.css';
-import courseInfo from '../../assets/courses.json';
 
 function Tag() {
     const topicList = courseInfo[0].topics;
@@ -17,16 +16,14 @@ function Tag() {
 
 export default function CourseTile({ courseTile }) {
     return (
-        <div className={styles.layout}>
+        <Link to={`/course/${courseTile.id}`} className={styles.layout} style={{ textDecoration: 'none' }}>
             <div className={styles.top}>
-                <Link to={`/course/${courseTile.id}`} className={styles.courseLink}>
-                    CS {courseTile.id}
-                </Link>
+                <span>CS {courseTile.id}</span> 
                 <meter></meter>
                 <span className={styles.credithours}>{courseTile.credit_hours}</span>
             </div>
             <p className={styles.courseName}>{courseTile.name}</p>
             <Tag />
-        </div>
+        </Link>
     );
 }

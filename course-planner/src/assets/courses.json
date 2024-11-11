@@ -26,5 +26,33 @@
                 "usefulness": 5
             }
         ]
+    },
+    {
+        "id": 211,
+        "name": "Blah Blah",
+        "credit_hours": 3,
+        "description": "This class teaches introductory topics in CS",
+        "topics": ["python", "critical thinking"],
+        "difficulty_rating": 1.5,
+        "favorite": true,
+        "prereqs": [
+            {
+                "courseNumber": "CS 100",
+                "courseName": "Foundations of Computing",
+                "courseHours": 3
+            }
+        ],
+        "years": ["Freshman", "Sophomore"],
+        "concurrent": "None",
+        "sections": ["Lab", "Lecture"],
+        "reviews": [
+            {
+                "studentName": "Florianne Che",
+                "difficulty": 3,
+                "interest": 4,
+                "workload": 2,
+                "usefulness": 5
+            }
+        ]
     }
 ]
