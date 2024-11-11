@@ -1,17 +1,18 @@
-import { StrictMode } from 'react';
-import { createRoot } from 'react-dom/client';
-import Header from './components/Header/Header.jsx';
-import './components/Header/styles.css';
-import CourseList from './components/Course-Tile/CourseList.jsx';
-import CourseTile from './components/Course-Tile/CourseTile.jsx';
-import Details from './components/Course-Details/Details.jsx';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import CourseList from './components/Course-Tile/CourseList';
+import Details from './components/Course-Details/Details';
 
-// NOTE CHANGE PATH FOR DETAILS PAGE LATER TO /details and 
-// HEADER PAGE BACK TO / after incorporating navigation
-// RN this just easiest way to see code
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <Details />
-    <CourseList />
-  </StrictMode>
-);
+function App() {
+    return (
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<CourseList />} />
+                <Route path="/course/:id" element={<Details />} />
+            </Routes>
+        </BrowserRouter>
+    );
+}
+
+ReactDOM.render(<App />, document.getElementById('root'));
