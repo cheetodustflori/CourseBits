@@ -1,129 +1,128 @@
 header {
-    background-color: rgb(255, 255, 255);
-    border-radius: 15px;
-    height: 80px;
-    box-shadow: 0px 2px 3px #888888;
-    margin: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  height: 80px;
+  box-shadow: 0px 2px 3px #888888;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-#circle{
-    position: absolute;
-    margin-left: 5px;
-    width: 55px;
-    height: 55px;
-    background-color: red;
-    border-radius: 50%;
-    line-height: 1.5px;
-    justify-content: center;
+#circle {
+  position: absolute;
+  margin-left: 5px;
+  width: 55px;
+  height: 55px;
+  background-color: red;
+  border-radius: 50%;
+  line-height: 1.5px;
+  justify-content: center;
 }
 
-#uic-text{
-    position: relative;
-    font-size: 24px;
-    text-shadow: 0px 2px 2px #888888;
-    font-family: 'Trebuchet MS', 'sans-serif';
-    padding: 5px;
-    padding-left: 8px;
-    color: white;
+#uic-text {
+  position: relative;
+  font-size: 24px;
+  text-shadow: 0px 2px 2px #888888;
+  font-family: "Trebuchet MS", "sans-serif";
+  padding: 5px;
+  padding-left: 8px;
+  color: white;
 }
 
-#red-box{
-    position: relative;
-    width: 97%;
-    height: 15px;
-    background: linear-gradient(to right, #b91414,rgb(249, 129, 129));
-    border-radius: 7px;
-    box-shadow: inset 0px 1px 2px #888888;
-    top: 20%;
-    left: 2%;
+#red-box {
+  position: relative;
+  width: 97%;
+  height: 15px;
+  background: linear-gradient(to right, #b91414, rgb(249, 129, 129));
+  border-radius: 7px;
+  box-shadow: inset 0px 1px 2px #888888;
+  top: 20%;
+  left: 2%;
 }
 
-#text{
-    font-weight: bold;
-    font-size: 16px;
-    position: relative;
-    margin-left: 50px;
-    padding: 15px;
-    margin-top: 10px;
-    color: rgb(0, 0, 0);
+#text {
+  font-weight: bold;
+  font-size: 16px;
+  position: relative;
+  margin-left: 50px;
+  padding: 15px;
+  margin-top: 10px;
+  color: rgb(0, 0, 0);
 }
 
 .button-container {
-    display: flex;
-    gap: 10px; 
-    padding: 10px; 
-    justify-content: center;
-   }
-   .button {
-       background-color: f2f2f2; 
-       color: black; 
-       border: none; 
-       border-radius: 20px; 
-       padding: 10px 20px; 
-       font-size: 16px; 
-       cursor: pointer;
-       box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); 
-   }
-   #buttonspot{
-         position: relative;
-         right: 33%;
-         top: 15%;
+  display: flex;
+  /* gap: 10px; */
+  padding: 10px;
+  /* justify-content: center; */
+}
+.button {
+  background-color: f2f2f2;
+  color: black;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
+#buttonspot {
+  position: relative;
+  /* right: 33%; */
+  top: 15%;
+}
 
-   }
+.button:hover {
+  background-color: #c32939;
+  color: white;
+}
 
-   .button:hover {
-       background-color: #c32939;
-       color: white;
-   }
+.button.selected {
+  background-color: #f2f2f2;
+}
 
-   .button.selected {
-       background-color: #f2f2f2;
-   }
+.sidebar {
+  position: absolute;
+  top: 150px;
+  right: 20px;
+  width: 150px;
+  padding: 15px;
+  background-color: white;
+  border-radius: 10px;
+  font-family: "Inter", sans-serif;
+}
 
-   .sidebar {
-       position: absolute; 
-       top: 150px; 
-       right: 20px; 
-       width: 150px;
-       padding: 15px; 
-       background-color: white;
-       border-radius: 10px; 
-       font-family: "Inter", sans-serif;
-   }
+.sidebar h3 {
+  font-size: 16px;
+  margin-top: 0;
+}
 
-   .sidebar h3 {
-       font-size: 16px; 
-       margin-top: 0; 
-   }
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
 
-   .rating {
-       display: flex; 
-       align-items: center; 
-       gap: 5px;
-   }
+.difficulty-bar {
+  width: 80%;
+  height: 8px;
+  background-color: lightgray;
+  position: relative;
+  top: -9px;
+  border-radius: 4px;
+}
 
-   .difficulty-bar {
-       width: 80%;
-       height: 8px; 
-       background-color: lightgray; 
-       position: relative;
-       top: -9px;
-       border-radius: 4px;
-   }
+.favorite-icon {
+  font-size: 18px;
+}
 
-   .favorite-icon {
-       font-size: 18px; 
-       
-   }
-
-   .course-topic {
-       display: inline-block; 
-       padding: 5px 10px; 
-       background-color: #0c0d49; 
-       color: white; 
-       border-radius: 15px;
-       font-size: 14px; 
-   }
+.course-topic {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #0c0d49;
+  color: white;
+  border-radius: 15px;
+  font-size: 14px;
+}

@@ -1,4 +1,4 @@
-import "../../styles.css";
+import "./styles.css";
 
 export default function Header() {
   return (
@@ -24,7 +24,7 @@ export default function Header() {
           <span class = "difficulty-bar"></span>
         </div>
           <h3>Student Favorites</h3>
-          <span class = "favorite-icon"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoyVa2yhKbQ7oSMqi-KirWdim3b6hnXI9J5g&s" style={{width: 25, height: 25}}></img></span>
+          <span class = "favorite-icon"><img src="/../assets/star.jpg" style={{width: 25, height: 25}}></img></span>
           <h3>Course Topics</h3>
           <span class = "course-topic">Topic</span>
         </div> 
