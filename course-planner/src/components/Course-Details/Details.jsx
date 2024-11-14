@@ -27,14 +27,14 @@ export default function Details() {
     return (
         <div className={styles.detailsLayout}>
             {/* Details Section */}
-            <h1>Details: {course.name}</h1>
-            <h4>Typical Years: {course.years}</h4>
-            <h4>Concurrent With: {course.concurrent}</h4>
-            <h4>Sections: {course.sections}</h4>
+            <h1>Details</h1>
+            <p styles={styles.detailsYears}>Typical Years: {course.years}</p>
+            <p styles={styles.detailsConcurrent}>Concurrent With: {course.concurrent}</p>
+            <p styles={styles.detailsSections}>Sections: {course.sections}</p>
             <br />
 
             {/* Prerequisites Section */}
-            <h1> Prerequisites: </h1>
+            <h1>Prerequisites</h1>
             <div className={styles.prereqsContainer}>
                 {course.prereqs && course.prereqs.length > 0 ? (
                     course.prereqs.map((item, index) => (
@@ -47,7 +47,7 @@ export default function Details() {
             <br />
 
             {/* Reviews Section */}
-            <h1> Reviews: </h1>
+            <h1>Student Reviews</h1>
             <div className={styles.reviewsContainer}>
                 {course.reviews && course.reviews.length > 0 ? (
                     course.reviews.map((review, index) => (
