@@ -9,12 +9,11 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "start": "vite"
-
   },
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^6.27.0"
+    "react-router-dom": "^6.28.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",

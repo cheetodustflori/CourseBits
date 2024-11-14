@@ -1,33 +1,30 @@
-import styles from './CourseTile.module.css'
-import courseInfo from '../../assets/courses.json'
+import { Link } from 'react-router-dom';
+import styles from './CourseTile.module.css';
+import courseInfo from '../../assets/courses.json';
 
-
-function Tag()  {
+function Tag() {
     const topicList = courseInfo[0].topics;
-    return(
+    return (
         <div className={styles.tag}>
-            {topicList.map ((item, index) => (
-                <div tag={index}>
+            {topicList.map((item, index) => (
+                <div key={index}>
                     <p className={styles.tag}>{item}</p>
                 </div>
             ))}
-         </div>
+        </div>
     );
 }
 
-
-export default function CourseTile({courseTile}) {
-    return(
-        <>
-            <div className={styles.layout}>
-                <div className={styles.top}>
-                    <span>CS {courseTile.id}</span> 
-                    <meter></meter> 
-                    <span className={styles.credithours}>{courseTile.credit_hours}</span>
-                </div>    
-                <p>{courseTile.name}</p>
-                <Tag/>
+export default function CourseTile({ courseTile }) {
+    return (
+        <Link to={`/course/${courseTile.id}`} className={styles.layout} style={{ textDecoration: 'none' }}>
+            <div className={styles.top}>
+                <span>CS {courseTile.id}</span> 
+                <meter></meter>
+                <span className={styles.credithours}>{courseTile.credit_hours}</span>
             </div>
-        </>
+            <p className={styles.courseName}>{courseTile.name}</p>
+            <Tag />
+        </Link>
     );
 }

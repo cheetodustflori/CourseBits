@@ -1,12 +1,27 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import Header from './components/Header/Header.jsx'
-import './components/Header/styles.css'
-import CourseList from './components/Course-Tile/CourseList.jsx'
-import CourseTile from './components/Course-Tile/CourseTile.jsx'
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-  <Header/>
-    <CourseList/>
-  </StrictMode>,
-)
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import CourseList from './components/Course-Tile/CourseList';
+import Details from './components/Course-Details/Details';
+import Header from './components/Header/Header';
+
+function HomePage() {
+  return (
+      <>
+          <Header />
+          <CourseList />
+      </>
+  );
+}
+
+function App() {
+  return (
+      <BrowserRouter>
+          <Routes>
+              <Route path="/" element={<HomePage />} />
+              <Route path="/course/:id" element={<Details />} />
+          </Routes>
+      </BrowserRouter>
+  );
+}
+ReactDOM.render(<App />, document.getElementById('root'));
