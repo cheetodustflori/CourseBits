@@ -16,18 +16,6 @@
     width: 50rem;
 }
 
-.detailsYears {
-
-}
-
-
-.detailsConcurrent{
-
-}
-
-.detailsSections {
-
-}
 /* prerequisites layout with flexbox */
 .prereqsLayout {
     box-shadow: 0em 0.5em 1em rgba(0,0,0,0.1);
