@@ -1,0 +1,94 @@
+.course-card {
+    width: 50%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 16px auto;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    float: left
+  }
+
+  .course-id{
+    font-size: 16px;
+    margin: 0;
+    flex-grow: 0;
+  }
+  .course-info {
+    padding: 16px;
+  }
+  
+  .course-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .course-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+
+  .favorite-icon {
+    cursor: pointer;
+    font-size: 1.2em;
+    margin-left: 24px;
+  }
+
+.course-container {
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+    width: 70%;
+ }
+
+ /* .topics-tag{
+  position: relative;
+  border-radius:15px;
+  height:26px;
+  width:61px;
+  margin-top: 550px;
+  background-color: #0C0D49;
+  color: white;
+  font-size: 15px; 
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  text-align: center;
+} */
+
+.topics-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.topic-tag {
+  background-color: #0C0D49;
+  padding: 4px 8px;
+  border-radius: 16px;
+  font-size: 0.9em;
+  color: #ffffff;
+}
+
+.course-title {
+    float: left;
+    margin-right: 20px; 
+ }
+
+.course-credits {
+    float: right;
+    margin-left: 20px; 
+}
+
+.course-description h3 {
+  font-size: 16px;
+}
+
+.course-topics h3{
+  font-size: 16px;
+  margin-bottom: 20px;
+}
