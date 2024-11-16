@@ -1,4 +1,4 @@
-.layout {
+.courseTileLayout {
     display: flex;
     flex-direction: column;
     border-radius: 20px;
@@ -6,7 +6,7 @@
     min-height: 165px;
     max-height: fit-content;
     width: 240px;
-    padding: 20px 20px;
+    padding: 40px 20px 0px 20px;
     margin: 10px;
     font-family: "Inter", sans-serif;
     font-size: 16px;
@@ -18,7 +18,7 @@
     justify-content: space-between;
     font-weight: bold;
 }
-.credithours {
+.creditHours {
     font-family: "Inter", sans-serif;
     color: gray;
     
@@ -33,17 +33,23 @@ p.tag{
     height: 26px;
     width: fit-content;
     background-color: #0C0D49;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    margin-right: 5px;
+
+}
+
+p.tag-text{
     color: white;
     font-family: "Inter", sans-serif;
-    padding: 5px 9px;
-    margin-right: 5px;
-    margin-top: -0.5px;
 }
 
 meter {
     width: 125px
 }
-.courselist {
+.courseList {
     display: flex;
     flex-wrap: wrap;
 }
