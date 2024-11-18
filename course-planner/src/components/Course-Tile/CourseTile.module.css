@@ -34,7 +34,7 @@ p.tag{
     width: fit-content;
     background-color: #0C0D49;
     padding-top: 8px;
-    padding-bottom: 5px;
+    /*padding-bottom: 5px;*/
     padding-left: 9px;
     padding-right: 9px;
     margin-right: 5px;

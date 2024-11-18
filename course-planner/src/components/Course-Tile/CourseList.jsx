@@ -5,7 +5,7 @@ import CourseTile from './CourseTile'
 export default function CourseList() {
     return(
         <>
-            <div className={styles.courselist}>
+            <div className={styles.courseList}>
                {courseInfo.map (item => (
                     <CourseTile courseTile={item}></CourseTile>     
                ))}
