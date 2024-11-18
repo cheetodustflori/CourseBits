@@ -1,0 +1,76 @@
+import Details from './Details'; // Path to Details component
+import CourseDescription from './CourseDescription'; // Path to CourseDescription component
+import styles from './PageLayout.module.css'; // Optional: for styling
+
+export default function CoursePage() {
+    return (
+        <div className={styles.container}>
+            {/* Left: Details */}
+            <div className={styles.left}>
+                <Details />
+            </div>
+
+            {/* Right: Course Description */}
+            <div className={styles.right}>
+                <CourseDescription />
+            </div>
+        </div>
+    );
+}
+
+
+.container {
+    display: flex; /* Use flexbox to arrange items side-by-side */
+    width: 100%; /* Full page width */
+    height: 100vh; /* Full viewport height */
+}
+
+.left, .right {
+    flex: 1; /* Each takes up 50% of the width */
+    padding: 20px; /* Optional: Add some spacing */
+    box-sizing: border-box; /* Include padding in width/height calculations */
+}
+
+.left {
+    background-color: #f9f9f9; /* Optional: Background color for left side */
+}
+
+.right {
+    background-color: #ffffff; /* Optional: Background color for right side */
+}
+
+
+export default function CoursePage({ courseData }) {
+    return (
+        <div className={styles.container}>
+            <div className={styles.left}>
+                <Details course={courseData} />
+            </div>
+            <div className={styles.right}>
+                <CourseDescription course={courseData} />
+            </div>
+        </div>
+    );
+}
+
+
+routing: 
+import { useParams } from 'react-router-dom';
+
+export default function CoursePage({ courses }) {
+    const { id } = useParams();
+    const courseData = courses.find((course) => course.id === id);
+
+    return courseData ? (
+        <div className={styles.container}>
+            <div className={styles.left}>
+                <Details course={courseData} />
+            </div>
+            <div className={styles.right}>
+                <CourseDescription course={courseData} />
+            </div>
+        </div>
+    ) : (
+        <p>Course not found!</p>
+    );
+}
