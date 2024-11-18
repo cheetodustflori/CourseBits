@@ -22,7 +22,7 @@
         "credit_hours": "4",
         "description": "Access and use of computing resources. Programming and program design. Problem solving. Data types, control structures, modularity, information hiding. ",
         "topics": ["Coding", "Exams"],
-        "difficulty": 5,
+        "difficulty": 1.5,
         "favorite": true,
         "prereqs": [],
         "typical_yr": "freshmen",
