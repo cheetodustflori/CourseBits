@@ -6,10 +6,8 @@ import './course-description-mod.css';
 export default function CourseCard({ course }) {
   return (
     <div className="course-card">
-      <div className="container">
         {/* Image of class flow */}
-        <img src={course.imageUrl}/>
-      </div>
+        <img className="picture-container" src={course.imageUrl}/>
       <div className="course-info">
         <div className="course-header">
           <h1 className="course-id">CS {course.id}</h1>
@@ -27,7 +25,6 @@ export default function CourseCard({ course }) {
           <p>{course.description}</p>
         </div>
         <div className="course-topics">
-          <h3>Topics</h3>
           <div className="topics-container">
             {/* Grabbing the topics data and populating via index. A className is created to modify css */}
             {course.topics.map((topic, index) => (
