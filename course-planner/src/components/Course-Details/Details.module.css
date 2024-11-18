@@ -1,0 +1,96 @@
+/* main container with grid layout */
+* {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.detailsLayout {
+    display: grid;
+    /* single comlumn layout */
+    grid-template-columns: 1fr;
+    padding: 2rem;
+    height: auto;
+    width: 50rem;
+}
+
+/* prerequisites layout with flexbox */
+.prereqsLayout {
+    box-shadow: 0em 0.5em 1em rgba(0,0,0,0.1);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: fit-content;
+    height: 25px;
+    align-items: center; 
+}
+
+.prereqsCourseNumber{
+    font-weight: bold;
+    margin: 0px 5px;
+}
+.prereqsCourseName{
+    margin: 0px 5px;
+}
+.prereqsCourseHours{
+    margin: 0px 5px;
+}
+
+/* reviews layout as inline blocks */
+.reviewsLayout {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+h1 {
+    color: black;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    color: #0C0D49;
+    padding-left: 0;
+    margin-right: 5px;
+}
+
+h4 {
+    color: #0C0D49;
+    font-weight: 400;
+    margin-right: 5px;
+}
+
+p {
+    font-weight: 500;
+    /* padding-right: 1rem; */
+    /* adds space between paragraphs */
+    margin: 0.5rem 0;
+}
+
+/* reviews grid for 3-colum layout */
+.reviewsContainer {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.5rem;
+}
+
+.reviewItem {
+    background-color: #FFFFFF;
+    border-radius: 0.8rem;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.reviewTitle {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #0C0D49;
+}
