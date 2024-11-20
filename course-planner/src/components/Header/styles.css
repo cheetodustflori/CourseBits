@@ -82,8 +82,9 @@ header {
   color: white;
 }
 
-.button.selected {
-  background-color: #f2f2f2;
+.button.active {
+  background-color: #c32939;
+  color: white;
 }
 
 .sidebar {

@@ -1,15 +1,13 @@
-import styles from './CourseTile.module.css';
-import courseInfo from '../../assets/courses.json'
-import CourseTile from './CourseTile'
+import React from "react";
+import styles from "./CourseTile.module.css";
+import CourseTile from "./CourseTile";
 
-export default function CourseList() {
-    return(
-        <>
-            <div className={styles.courseList}>
-               {courseInfo.map (item => (
-                    <CourseTile courseTile={item}></CourseTile>     
-               ))}
-            </div>
-        </>
-    );
+export default function CourseList({ filteredCourses }) {
+  return (
+    <div className={styles.courseList}>
+      {filteredCourses.map((item) => (
+        <CourseTile key={item.id} courseTile={item} />
+      ))}
+    </div>
+  );
 }

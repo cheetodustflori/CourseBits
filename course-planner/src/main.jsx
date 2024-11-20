@@ -9,7 +9,7 @@ function HomePage() {
   return (
       <>
           <Header />
-          <CourseList />
+          {/* <CourseList/> */}
       </>
   );
 }

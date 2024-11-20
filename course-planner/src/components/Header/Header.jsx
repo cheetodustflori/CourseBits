@@ -1,43 +1,68 @@
 import React, { useState } from "react";
 import "./styles.css";
-
-const [filtered, setFiltered] = useState([]);
-
-const filteredCourses = (catagory) => {
-  const filtered = courses.filter((course) => course.catagory === catagory);
-  setFiltered(filtered);
-};
-
+import CourseList from "../Course-Tile/CourseList.jsx";
+import courseInfo from "../../assets/courses.json";
 
 export default function Header() {
+  const [filteredCourses, setFilteredCourses] = useState(courseInfo);
+  const [activeType, setActiveType] = useState("all"); // Default to "all" button being active
+
+  const filterCourses = (type) => {
+    if (type === "all") {
+      setFilteredCourses(courseInfo); // Show all courses
+    } else {
+      const filtered = courseInfo.filter((course) => course["course-type"] === type);
+      setFilteredCourses(filtered.length > 0 ? filtered : courseInfo);
+    }
+    setActiveType(type); // Set the active button type
+  };
+
   return (
-        <body>
-        <header>
-          <div id="red-box"></div>
-
-          <div id="circle" className="circle">
-            <h3 id="uic-text">UIC</h3>
-          </div>
-
-          <div id="text">Computer Science Courses: By the Students</div>
-        </header>
-        
-        <div class = "button-container" id = "buttonspot">
-          <button class = "button" onClick={() => filteredCourses("engineering-requirement")}> Engineering Requirements</button>
-          <button class = "button" onClick={() => filteredCourses("technical-elective")}> Technical Electives</button>
+    <>
+      <header>
+        <div id="red-box"></div>
+        <div id="circle" className="circle">
+          <h3 id="uic-text">UIC</h3>
         </div>
+        <div id="text">Computer Science Courses: By the Students</div>
+      </header>
 
-        <div class = "sidebar">
-          <h3>Difficulty Rating</h3>
-        <div class = "rating">
-          <span class = "difficulty-bar"></span>
+      <div className="button-container" id="buttonspot">
+        <button
+          className={`button ${activeType === "all" ? "active" : ""}`}
+          onClick={() => filterCourses("all")}
+        >
+          All Courses
+        </button>
+        <button
+          className={`button ${activeType === "engineering-requirement" ? "active" : ""}`}
+          onClick={() => filterCourses("engineering-requirement")}
+        >
+          Engineering Requirements
+        </button>
+        <button
+          className={`button ${activeType === "technical-elective" ? "active" : ""}`}
+          onClick={() => filterCourses("technical-elective")}
+        >
+          Technical Electives
+        </button>
+      </div>
+
+      <div className="sidebar">
+        <h3>Difficulty Rating</h3>
+        <div className="rating">
+          <span className="difficulty-bar"></span>
         </div>
-          <h3>Student Favorites</h3>
-          <span class = "favorite-icon"><img src="/../assets/star.jpg" style={{width: 25, height: 25}}></img></span>
-          <h3>Course Topics</h3>
-          <span class = "course-topic">Topic</span>
-        </div> 
+        <h3>Student Favorites</h3>
+        <span className="favorite-icon">
+          <img src="/../assets/star.jpg" alt="Star" style={{ width: 25, height: 25 }} />
+        </span>
+        <h3>Course Topics</h3>
+        <span className="course-topic">Topic</span>
+      </div>
 
-        </body>
+      {/* Render the filtered course list */}
+      <CourseList filteredCourses={filteredCourses} />
+    </>
   );
 }
