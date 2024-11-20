@@ -7,7 +7,7 @@
         "topics": ["Python", "Projects", "Computer Science"],
         "difficulty": 5,
         "favorite": true,
-        "prereqs": [],
+        "prereqs": ["101", "102", "103"],
         "typical_yr": "freshmen",
         "sections": [
             "lecture",

@@ -63,7 +63,7 @@ export default function Details() {
                 {course.prereqs.length > 0 ? (
                     <ul>
                         {course.prereqs.map((prereq, index) => (
-                            <li key={index}>{prereq}</li>
+                            <li className={styles.prereqsItem} key={index}>CS {prereq}</li>
                         ))}
                     </ul>
                 ) : (
