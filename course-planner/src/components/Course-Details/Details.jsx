@@ -7,12 +7,13 @@ export default function Details() {
     const [course, setCourse] = useState(null);
 
     useEffect(() => {
-        // Fetch the data
-        fetch('/src/assets/courses.json') // Update the path to your actual JSON file location
-            .then((response) => response.json())
-            .then((data) => {
-                const foundCourse = data.find((course) => course.id === id);
-                setCourse(foundCourse);
+        // Fetch or filter the course data by ID
+        fetch('../../assets/courses.json')
+            .then(response => response.json())
+            .then(data => {
+                // Find the course by ID, assuming IDs are numeric
+                const courseData = data.find(course => course.id === parseInt(id));
+                setCourse(courseData);
             })
             .catch((error) => console.error('Error fetching course data:', error));
     }, [id]);
