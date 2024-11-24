@@ -5,16 +5,16 @@ import courseInfo from "../../assets/courses.json";
 
 export default function Header() {
   const [filteredCourses, setFilteredCourses] = useState(courseInfo);
-  const [activeType, setActiveType] = useState("all"); // Default to "all" button being active
+  const [activeType, setActiveType] = useState("all"); 
 
   const filterCourses = (type) => {
     if (type === "all") {
-      setFilteredCourses(courseInfo); // Show all courses
+      setFilteredCourses(courseInfo); 
     } else {
       const filtered = courseInfo.filter((course) => course["course-type"] === type);
       setFilteredCourses(filtered.length > 0 ? filtered : courseInfo);
     }
-    setActiveType(type); // Set the active button type
+    setActiveType(type); 
   };
 
   return (
