@@ -1,0 +1,14 @@
+import React from 'react';
+import styles from './CourseDescription.module.css';
+
+export default function CourseDescription({ course }) {
+    return (
+        <div>
+            <h2>Course Highlights</h2>
+            <p><strong>ID:</strong> CS {course.id}</p>
+            <p><strong>Credit Hours:</strong> {course.credit_hours}</p>
+            <p><strong>Typical Year:</strong> {course.typical_yr}</p>
+            <p><strong>Course Type:</strong> {course['course-type']}</p>
+        </div>
+    );
+}

@@ -103,3 +103,37 @@ p {
     margin-bottom: 0.5rem;
     color: #0C0D49;
 }
+
+.coursePageLayout {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Left side smaller, right side larger */
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.courseDescription {
+    border-right: 1px solid #ccc; /* Optional: Add a vertical separator */
+    padding-right: 1rem;
+}
+
+.courseDetails {
+    padding-left: 1rem;
+}
+
+.courseImage {
+    max-width: 100%;
+    height: auto;
+}
+
+.description {
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.infoSection {
+    margin-top: 2rem;
+}
+
+.topicsSection, .prereqsSection, .sectionsSection {
+    margin-top: 2rem;
+}
