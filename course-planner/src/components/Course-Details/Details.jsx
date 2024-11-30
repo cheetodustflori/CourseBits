@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import CourseDescription from './CourseDescription'; // Assuming you have this component
+import CourseCard from './CourseCard';
 import styles from './Details.module.css';
 
 export default function Details() {
@@ -26,7 +26,12 @@ export default function Details() {
         <div className={styles.coursePageLayout}>
             {/* Left Side - Course Description */}
             <div className={styles.courseDescription}>
-                <CourseDescription course={course} />
+                <CourseCard
+                    course={{
+                        ...course,
+                        imageUrl: course['image-url'], // Map 'image-url' to 'imageUrl' for CourseCard compatibility
+                    }}
+                />
             </div>
 
             {/* Right Side - Course Details */}
