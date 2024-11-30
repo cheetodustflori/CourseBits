@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import CourseCard from './CourseCard';
+import CourseCard from '../Course-Description/course-description'; 
 import styles from './Details.module.css';
 
 export default function Details() {
