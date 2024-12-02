@@ -55,18 +55,6 @@ export default function Details() {
                     </p>
                 </div>
 
-                <div className={styles.topicsSection}>
-                    <h2>Topics Covered</h2>
-                    {course.topics.length > 0 ? (
-                        <ul>
-                            {course.topics.map((topic, index) => (
-                                <li key={index}>{topic}</li>
-                            ))}
-                        </ul>
-                    ) : (
-                        <p>No topics listed for this course.</p>
-                    )}
-                </div>
 
                 <div className={styles.prereqsSection}>
                     <h2>Prerequisites</h2>
