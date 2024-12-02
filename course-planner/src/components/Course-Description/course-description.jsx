@@ -1,6 +1,6 @@
 import { FaStar } from 'react-icons/fa';
 import PropTypes from 'prop-types';
-import './course-description-mod.css';
+import './course-description.css';
 
 // Function is passing a .json object in parameters so we can grab it's data and distribute accordinly
 export default function CourseCard({ course }) {
