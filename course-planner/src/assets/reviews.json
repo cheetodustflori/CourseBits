@@ -1,0 +1,697 @@
+{
+    "111": [
+        {
+            "name": "Yashi",
+            "difficulty": 2.0,
+            "interest": 4,
+            "workload": 2,
+            "usefulness": 4,
+            "main_topics": [
+                "functional decomposition"
+            ],
+            "difficulty_overall": 3
+        },
+        {
+            "name": "Jenny",
+            "difficulty": 3.0,
+            "interest": 4,
+            "workload": 3,
+            "usefulness": 3,
+            "main_topics": [
+                "Python"
+            ],
+            "difficulty_overall": 3
+        },
+        {
+            "name": "L. F.",
+            "difficulty": 3.0,
+            "interest": 4,
+            "workload": 4,
+            "usefulness": 5,
+            "main_topics": [
+                "Python",
+                "lists",
+                "dictionaries",
+                "functions",
+                "loops",
+                "etc"
+            ],
+            "difficulty_overall": 3
+        },
+        {
+            "name": "Anonymous",
+            "difficulty": 1.0,
+            "interest": 4,
+            "workload": 2,
+            "usefulness": 4,
+            "main_topics": [
+                "Python"
+            ],
+            "difficulty_overall": 3
+        },
+        {
+            "name": "Anonymous",
+            "difficulty": 4.0,
+            "interest": 4,
+            "workload": 3,
+            "usefulness": 5,
+            "main_topics": [
+                "Python"
+            ],
+            "difficulty_overall": 3
+        },
+        {
+            "name": "Inika Goyal",
+            "difficulty": 2.0,
+            "interest": 4,
+            "workload": 4,
+            "usefulness": 5,
+            "main_topics": [
+                "Python"
+            ],
+            "difficulty_overall": 3
+        },
+        {
+            "name": "Anonymous",
+            "difficulty": 4.0,
+            "interest": 4,
+            "workload": 5,
+            "usefulness": 4,
+            "main_topics": [],
+            "difficulty_overall": 3
+        }
+    ],
+    "141": [
+        {
+            "name": "Anonymous",
+            "difficulty": 4.0,
+            "interest": 3,
+            "workload": 3,
+            "usefulness": 5,
+            "main_topics": [
+                "C++"
+            ],
+            "difficulty_overall": 3
+        },
+        {
+            "name": "Anonymous",
+            "difficulty": 3.0,
+            "interest": 4,
+            "workload": 4,
+            "usefulness": 4,
+            "main_topics": [
+                "C++",
+                "Projects",
+                "Programming Logic",
+                "Pointers",
+                "Functions",
+                "File IO",
+                "Dynamic Memory",
+                "Recursion",
+                "Linked Lists"
+            ],
+            "difficulty_overall": 3
+        },
+        {
+            "name": "Anonymous",
+            "difficulty": 2.0,
+            "interest": 3,
+            "workload": 3,
+            "usefulness": 3,
+            "main_topics": [
+                "C++"
+            ],
+            "difficulty_overall": 3
+        },
+        {
+            "name": "Anonymous",
+            "difficulty": 3.0,
+            "interest": 5,
+            "workload": 4,
+            "usefulness": 5,
+            "main_topics": [
+                "C++",
+                "functions",
+                "classes/objects",
+                "",
+                "loops",
+                "vectors/arrays",
+                "pointers"
+            ],
+            "difficulty_overall": 3
+        },
+        {
+            "name": "Anonymous",
+            "difficulty": 3.0,
+            "interest": 5,
+            "workload": 3,
+            "usefulness": 5,
+            "main_topics": [
+                "C++",
+                "Classes",
+                "Pointers",
+                "Recursion",
+                "Linked Lists"
+            ],
+            "difficulty_overall": 3
+        },
+        {
+            "name": "Anonymous",
+            "difficulty": 5.0,
+            "interest": 2,
+            "workload": 5,
+            "usefulness": 5,
+            "main_topics": [],
+            "difficulty_overall": 3
+        }
+    ],
+    "151": [
+        {
+            "name": "Anonymous",
+            "difficulty": 3.0,
+            "interest": 5,
+            "workload": 3,
+            "usefulness": 3,
+            "main_topics": [
+                "Discrete mathematics"
+            ],
+            "difficulty_overall": 4
+        },
+        {
+            "name": "Anonymous",
+            "difficulty": 4.0,
+            "interest": 4,
+            "workload": 3,
+            "usefulness": 4,
+            "main_topics": [
+                "Proofs",
+                "Logic",
+                "Relations",
+                "Graphs",
+                "Probability",
+                "Sets",
+                "Theory",
+                "Truth Tables",
+                "Logical Equivalence",
+                "Inference",
+                "Inductions",
+                ""
+            ],
+            "difficulty_overall": 4
+        },
+        {
+            "name": "Jeremy Caceres",
+            "difficulty": 3.0,
+            "interest": 5,
+            "workload": 2,
+            "usefulness": 4,
+            "main_topics": [
+                "Predicate logic",
+                "sets",
+                "graphs",
+                "induction",
+                "proofs"
+            ],
+            "difficulty_overall": 4
+        },
+        {
+            "name": "Anonymous",
+            "difficulty": 4.0,
+            "interest": 3,
+            "workload": 3,
+            "usefulness": 3,
+            "main_topics": [
+                "Discrete Mathematics",
+                "Logic",
+                "Relations",
+                "Sets"
+            ],
+            "difficulty_overall": 4
+        },
+        {
+            "name": "Anonymous",
+            "difficulty": 5.0,
+            "interest": 4,
+            "workload": 4,
+            "usefulness": 4,
+            "main_topics": [
+                "Discrete mathematics",
+                "logic",
+                "induction",
+                "proofs",
+                "sets",
+                "relations",
+                "functions",
+                ""
+            ],
+            "difficulty_overall": 4
+        }
+    ],
+    "211": [
+        {
+            "name": "Amina Marin",
+            "difficulty": 4.0,
+            "interest": 3,
+            "workload": 4,
+            "usefulness": 3,
+            "main_topics": [
+                "c"
+            ],
+            "difficulty_overall": 4
+        },
+        {
+            "name": "Trenton Coleman",
+            "difficulty": 4.0,
+            "interest": 2,
+            "workload": 4,
+            "usefulness": 3,
+            "main_topics": [
+                "C",
+                "Memory Allocation"
+            ],
+            "difficulty_overall": 4
+        },
+        {
+            "name": "Anonymous",
+            "difficulty": 3.0,
+            "interest": 5,
+            "workload": 4,
+            "usefulness": 4,
+            "main_topics": [
+                "C",
+                "C++",
+                "Pointers",
+                "UNIX",
+                "Structs",
+                "Arrays",
+                "Valgrind",
+                "Terminal",
+                "Debug Mode",
+                "Linked Lists",
+                "gdb",
+                "Inheritance",
+                "Polymorphism",
+                "Memoization",
+                "Exceptions",
+                "Typecasting",
+                "Memory Leaks",
+                "Dynamic Memory"
+            ],
+            "difficulty_overall": 4
+        },
+        {
+            "name": "Anonymous",
+            "difficulty": 3.0,
+            "interest": 4,
+            "workload": 3,
+            "usefulness": 4,
+            "main_topics": [
+                "C/C++"
+            ],
+            "difficulty_overall": 4
+        }
+    ],
+    "261": [
+        {
+            "name": "Jonathan",
+            "difficulty": 3.0,
+            "interest": 5,
+            "workload": 3,
+            "usefulness": 5,
+            "main_topics": [],
+            "difficulty_overall": 4
+        },
+        {
+            "name": "Anonymous",
+            "difficulty": 4.0,
+            "interest": 4,
+            "workload": 4,
+            "usefulness": 5,
+            "main_topics": [
+                "Data Structures",
+                "Trees",
+                "Graphs",
+                "Sorting",
+                "Maps",
+                "Sets",
+                "Linked Lists",
+                "Stacks",
+                "Queues",
+                "Hash Tables",
+                "Runtime Analysis"
+            ],
+            "difficulty_overall": 4
+        },
+        {
+            "name": "Anonymous",
+            "difficulty": 5.0,
+            "interest": 4,
+            "workload": 4,
+            "usefulness": 5,
+            "main_topics": [
+                "C++",
+                "Linked Lists",
+                "Dijkstra's Algorithm",
+                "etc."
+            ],
+            "difficulty_overall": 4
+        },
+        {
+            "name": "Thomas Bitsky",
+            "difficulty": 3.0,
+            "interest": 5,
+            "workload": 4,
+            "usefulness": 5,
+            "main_topics": [
+                "C++"
+            ],
+            "difficulty_overall": 4
+        }
+    ],
+    "261": [
+        {
+            "name": "Yashi",
+            "difficulty": 4.0,
+            "interest": 5,
+            "workload": 4,
+            "usefulness": 5,
+            "main_topics": [
+                "Floating points",
+                "x86",
+                "RISC-V"
+            ],
+            "difficulty_overall": 4
+        },
+        {
+            "name": "Anonymous",
+            "difficulty": 3.0,
+            "interest": 5,
+            "workload": 3,
+            "usefulness": 5,
+            "main_topics": [
+                "Cyber Security"
+            ],
+            "difficulty_overall": 4
+        },
+        {
+            "name": "Anonymous",
+            "difficulty": 4.0,
+            "interest": 4,
+            "workload": 4,
+            "usefulness": 4,
+            "main_topics": [
+                "Assembly x86-64",
+                "gdb",
+                "Analysis",
+                "Two's Complements",
+                "Jump Tables",
+                "Memory Hierarchy",
+                "Cache",
+                "Data Alignment",
+                "Memory Dump",
+                "Server Usage"
+            ],
+            "difficulty_overall": 4
+        }
+    ],
+    "277": [
+        {
+            "name": "Anonymous",
+            "difficulty": 3.0,
+            "interest": 4,
+            "workload": 2,
+            "usefulness": 5,
+            "main_topics": [
+                "Technical Communication",
+                "Professional Communication",
+                "Communication Skills",
+                "Demonstration Skills",
+                "Negotiation"
+            ],
+            "difficulty_overall": 3
+        }
+    ],
+    "301": [
+        {
+            "name": "Anonymous",
+            "difficulty": 4.0,
+            "interest": 2,
+            "workload": 3,
+            "usefulness": 2,
+            "main_topics": [
+                "Languages",
+                "Regular Languages",
+                "Regular Expressions",
+                "Pumping Lemma",
+                "Push-Down Automata",
+                "Turing Machines"
+            ],
+            "difficulty_overall": 4
+        },
+        {
+            "name": "Anonymous",
+            "difficulty": 4.0,
+            "interest": 3,
+            "workload": 3,
+            "usefulness": 3,
+            "main_topics": [
+                "DFA",
+                "NFA",
+                "Pumping Lemma"
+            ],
+            "difficulty_overall": 4
+        }
+    ],
+    "341": [
+        {
+            "name": "Anonymous",
+            "difficulty": 1.0,
+            "interest": 2,
+            "workload": 2,
+            "usefulness": 2,
+            "main_topics": [
+                "Python/Sqlite/F#/GO/Simple C"
+            ],
+            "difficulty_overall": 2
+        },
+        {
+            "name": "Anonymous",
+            "difficulty": 4.0,
+            "interest": 4,
+            "workload": 4,
+            "usefulness": 5,
+            "main_topics": [
+                "Python",
+                "SQL",
+                "F#"
+            ],
+            "difficulty_overall": 2
+        }
+    ],
+    "361": [
+        {
+            "name": "A. Mungus",
+            "difficulty": 5.0,
+            "interest": 5,
+            "workload": 4,
+            "usefulness": 5,
+            "main_topics": [
+                "threads",
+                "networking"
+            ],
+            "difficulty_overall": 5
+        }
+    ],
+    "377": [
+        {
+            "name": "Anonymous",
+            "difficulty": 3.0,
+            "interest": 5,
+            "workload": 3,
+            "usefulness": 4,
+            "main_topics": [],
+            "difficulty_overall": 3
+        }
+    ],
+    "401": [
+        {
+            "name": "Chris",
+            "difficulty": 2.5,
+            "interest": 4,
+            "workload": 3,
+            "usefulness": 4,
+            "main_topics": [
+                "No programming",
+                "Graph Traversals",
+                "Dynamic Programming",
+                "Interval Scheduling",
+                "Greedy Algorithms",
+                "Maximum flow"
+            ],
+            "difficulty_overall": 3
+        },
+        {
+            "name": "Anonymous",
+            "difficulty": 3.0,
+            "interest": 3,
+            "workload": 3,
+            "usefulness": 3,
+            "main_topics": [
+                "Theory"
+            ],
+            "difficulty_overall": 3
+        },
+        {
+            "name": "Vamsi Dath Meka",
+            "difficulty": 3.0,
+            "interest": 5,
+            "workload": 2,
+            "usefulness": 5,
+            "main_topics": [
+                "Algorithms"
+            ],
+            "difficulty_overall": 3
+        },
+        {
+            "name": "nandana",
+            "difficulty": 3.0,
+            "interest": 3,
+            "workload": 3,
+            "usefulness": 4,
+            "main_topics": [
+                "Theory",
+                "Dynamic Programming",
+                "Graph Algorithms"
+            ],
+            "difficulty_overall": 3
+        }
+    ],
+    "411": [
+        {
+            "name": "Anonymous",
+            "difficulty": 3.0,
+            "interest": 3,
+            "workload": 3,
+            "usefulness": 2,
+            "main_topics": [
+                "Python",
+                "Search Algorithms"
+            ],
+            "difficulty_overall": 4
+        },
+        {
+            "name": "Anonymous",
+            "difficulty": 4.0,
+            "interest": 4,
+            "workload": 4,
+            "usefulness": 3,
+            "main_topics": [
+                "Python",
+                "Graph Algorithms",
+                "Markov Models"
+            ],
+            "difficulty_overall": 4
+        }
+    ],
+    "418": [
+        {
+            "name": "Vamsi Dath Meka",
+            "difficulty": 4.0,
+            "interest": 4,
+            "workload": 4,
+            "usefulness": 4,
+            "main_topics": [
+                "Python",
+                "Numpy",
+                "Pandas"
+            ],
+            "difficulty_overall": 4
+        }
+    ],
+    "440": [
+        {
+            "name": "Anonymous",
+            "difficulty": 4.0,
+            "interest": 3,
+            "workload": 4,
+            "usefulness": 5,
+            "main_topics": [
+                "Software Frameworks"
+            ],
+            "difficulty_overall": 4
+        }
+    ],
+    "474": [
+        {
+            "name": "Grad Student",
+            "difficulty": 3.0,
+            "interest": 4,
+            "workload": 4,
+            "usefulness": 4,
+            "main_topics": [
+                "Ruby",
+                "Cpp"
+            ],
+            "difficulty_overall": 3
+        }
+    ],
+    "CS 480: Database Systems": [
+        {
+            "name": "Vamsi Dath Meka",
+            "difficulty": 3.0,
+            "interest": 5,
+            "workload": 3,
+            "usefulness": 5,
+            "main_topics": [
+                "DBMS",
+                "SQL",
+                "Indexing"
+            ],
+            "difficulty_overall": 3
+        }
+    ],
+    "484": [
+        {
+            "name": "Anonymous",
+            "difficulty": 4.0,
+            "interest": 5,
+            "workload": 3,
+            "usefulness": 5,
+            "main_topics": [
+                "Web Dev",
+                "JavaScript",
+                "API\u2019s",
+                "Security",
+                "Frameworks",
+                "Data Management",
+                "Communication"
+            ],
+            "difficulty_overall": 4
+        },
+        {
+            "name": "nandana",
+            "difficulty": 4.0,
+            "interest": 5,
+            "workload": 4,
+            "usefulness": 5,
+            "main_topics": [
+                "javascript",
+                "react"
+            ],
+            "difficulty_overall": 4
+        },
+        {
+            "name": "Grad Student",
+            "difficulty": 4.0,
+            "interest": 5,
+            "workload": 5,
+            "usefulness": 5,
+            "main_topics": [
+                "React",
+                "Typescript",
+                "Javascript."
+            ],
+            "difficulty_overall": 4
+        }
+    ]
+}

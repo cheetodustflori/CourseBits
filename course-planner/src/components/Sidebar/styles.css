@@ -1,9 +1,6 @@
-body {
+body{
     font-family: "Inter", sans-serif;
-    margin: 0px;
-    padding: 0px;
 }
-
 header {
   background-color: rgb(255, 255, 255);
   border-radius: 15px;
@@ -116,13 +113,15 @@ header {
 .difficulty-bar {
   width: 80%;
   height: 8px;
-  background-color: lightgray;
+  background: linear-gradient(to right, green 50%, rgb(223, 223, 223) 50%);
   position: relative;
   top: -9px;
   border-radius: 4px;
 }
 
 .favorite-icon {
+    position: relative;
+    left: -20px;
   font-size: 18px;
   z-index: 99;
 }

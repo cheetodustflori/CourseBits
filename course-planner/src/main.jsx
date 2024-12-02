@@ -1,15 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import CourseList from './components/Course-Tile/CourseList';
 import Details from './components/Course-Details/Details';
 import Header from './components/Header/Header';
+import Button from  './components/Buttons/buttons';
+import Sidebar from './components/Sidebar/Sidebar';
 
 function HomePage() {
   return (
       <>
           <Header />
-          {/* <CourseList/> */}
+          <Button/>
+          <Sidebar/>
       </>
   );
 }

@@ -1,9 +1,6 @@
-body {
+body{
     font-family: "Inter", sans-serif;
-    margin: 0px;
-    padding: 0px;
 }
-
 header {
   background-color: rgb(255, 255, 255);
   border-radius: 15px;

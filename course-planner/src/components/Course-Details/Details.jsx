@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import CourseCard from '../Course-Description/course-description'; 
 import styles from './Details.module.css';
+import Header from '../Header/Header';
 
 export default function Details() {
     const { id } = useParams(); // Get the course ID from the URL
@@ -23,7 +24,10 @@ export default function Details() {
     }
 
     return (
+        <div>
+        <Header/>
         <div className={styles.coursePageLayout}>
+            
             {/* Left Side - Course Description */}
             <div className={styles.courseDescription}>
                 <CourseCard
@@ -36,23 +40,16 @@ export default function Details() {
 
             {/* Right Side - Course Details */}
             <div className={styles.courseDetails}>
-                <h1>{course.name}</h1>
-                <img src={course['image-url']} alt={course.name} className={styles.courseImage} />
-                <p className={styles.description}>{course.description}</p>
-
+                <h1>Details</h1>
+               
                 <div className={styles.infoSection}>
-                    <p>
-                        <strong>Credit Hours:</strong> {course.credit_hours}
+                <p>
+                        <strong>Typical Year:</strong> {course.typical_yr}
                     </p>
                     <p>
                         <strong>Difficulty:</strong> {course.difficulty}/5
                     </p>
-                    <p>
-                        <strong>Typical Year:</strong> {course.typical_yr}
-                    </p>
-                    <p>
-                        <strong>Favorite:</strong> {course.favorite ? 'Yes' : 'No'}
-                    </p>
+                    
                     <p>
                         <strong>Course Type:</strong> {course['course-type']}
                     </p>
@@ -92,7 +89,13 @@ export default function Details() {
                         ))}
                     </ul>
                 </div>
+
+                <div className={styles.sectionsSection}>
+                    <h2>Student Reviews</h2>
+
+                </div>
             </div>
+        </div>
         </div>
     );
 }
