@@ -6,7 +6,7 @@
         "description": "Fundamentals of computing; history of computation; computer organization; program design, testing and debugging; web design; computer animation; software tools; societal and legal issues in computing. ",
         "topics": ["Python", "Projects","Debugging"],
         "difficulty": 1,
-        "favorite": true,
+        "favorite": false,
         "prereqs": ["101", "102", "103"],
         "typical_yr": "freshmen",
         "sections": [
@@ -23,7 +23,7 @@
         "description": "Access and use of computing resources. Programming and program design. Problem solving. Data types, control structures, modularity, information hiding. ",
         "topics": ["Programming basics", "Program design"],
         "difficulty": 1,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical_yr": "freshmen",
         "sections": [
@@ -74,7 +74,7 @@
         "description": "Introduction to programming using Biology as the context for programming in a high-level language; control structures, variables, simple and aggregate data types; problem-solving techniques; biology topics include central dogma and genetics. ",
         "topics": ["Programming basics", "Control structures", "Variables"],
         "difficulty": 1,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -91,7 +91,7 @@
         "description": "Introduction to programming using law and public policy as the context for programming; control structures, variables, simple and aggregate data types; problem-solving techniques; legal topics: security, privacy, encryption, and predictive policing. ",
         "topics": ["Programming basics","Security", "Privacy"],
         "difficulty": 1,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -108,7 +108,7 @@
         "description": "Data abstraction and modular design; recursion; lists and stacks; dynamic memory allocation; file manipulation; programming exercises. ",
         "topics": ["C++", "Classes", "Pointers"],
         "difficulty": 2,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -142,7 +142,7 @@
         "description": "Multidisciplinary computer science topics at first-year level that vary from term to term depending on current student and instructor interests.",
         "topics": [],
         "difficulty": 2,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -159,7 +159,7 @@
         "description": "Software development tools and practices; debugging and testing; advanced language features; standard libraries; code management. ",
         "topics": [],
         "difficulty": 4,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -193,7 +193,7 @@
         "description": "Data representation and computer arithmetic; machine language; addressing; memory hierarchy; subroutines; data structures; processor architecture: hardware components, pipelining. ",
         "topics": [],
         "difficulty": 5,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -210,7 +210,7 @@
         "description": "Communication skills for computing students and professionals in various contexts: technical writing, portfolios, job interviews, demos, sales, with speech organization, visuals, and delivery. Attendance, participation, and presentations required. ",
         "topics": [],
         "difficulty": 1,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -227,7 +227,7 @@
         "description": "Multidisciplinary computer science topics at sophomore level that vary from term to term depending on current student and instructor interests. ",
         "topics": [],
         "difficulty": 2,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -261,7 +261,7 @@
         "description": "Programming language paradigms, design and implementation: syntax and semantics; parsing; runtime systems; control;  data types; subroutines and exceptions; data and procedural abstraction; functional programming. ",
         "topics": [],
         "difficulty": 4,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -278,7 +278,7 @@
         "description": "Software design principles and practices: Object-oriented design; design patterns; software reuse; testing;  event driven programming and concurrency; graphical user interface design and development; Team development. ",
         "topics": [],
         "difficulty": 4,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -295,7 +295,7 @@
         "description": "Design and implementation details of advanced data structure and non-trivial algorithms with an emphasis on amortized analysis. ",
         "topics": [],
         "difficulty": 3.5,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -312,7 +312,7 @@
         "description": "Study of computer systems emphasizing impact on application level programming. Virtual memory and memory management; code optimization; system-level I/O; concurrency:  processes, threads, synchronization; introduction to network programming. ",
         "topics": [],
         "difficulty": 5,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -329,7 +329,7 @@
         "description": "Computer hardware building blocks.  logic gates; combinational circuits; arithmetic circuits; flip flops and sequential circuits; registers and memory; CPU design; I/O design. ",
         "topics": [],
         "difficulty": 5,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -346,7 +346,7 @@
         "description": "Communication skills for computing professionals: presentation organization, visual aides, delivery techniques, argument support. Ethical and societal issues in computing: privacy, intellectual property and ownership, crime. ",
         "topics": [],
         "difficulty": 1,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -380,7 +380,7 @@
         "description": "Provides students with the opportunity to apply the skills and knowledge gained in previous engineering courses within a professional, working environment. ",
         "topics": [],
         "difficulty": 3,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -397,7 +397,7 @@
         "description": "Multidisciplinary computer science topics at junior-senior level that vary from term to term depending on current student and instructor interests. ",
         "topics": [],
         "difficulty": 3,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -414,7 +414,7 @@
         "description": "Design and/or research experience for undergraduate Computer Science majors under close supervision of a CS faculty member. ",
         "topics": [],
         "difficulty": 2,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -431,7 +431,7 @@
         "description": "Design and analysis of computer algorithms. Divide-and-conquer, dynamic programming, greedy method, backtracking. Algorithms for sorting, searching, graph computations, pattern matching, NP-complete problems. ",
         "topics": [],
         "difficulty": 3,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -448,7 +448,7 @@
         "description": "Design, implementation and presentation of algorithms and data structures emphasizing dynamic programming and both exact and heuristic approaches to NP-hard problems; problem solving sessions, programming projects and presentations. ",
         "topics": [],
         "difficulty": 3,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -465,7 +465,7 @@
         "description": "Techniques for analysis of markets, making decisions with other strategic agents, and understanding how algorithms affect the incentives of market participants. These include game theory, mechanism design, auction theory, and social choice theory. ",
         "topics": [],
         "difficulty": 3,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -482,7 +482,7 @@
         "description": "Problem representation; rule-based problem-solving methods; heuristic search techniques. Application to expert systems, theorem proving, language understanding. Individual projects. ",
         "topics": [],
         "difficulty": 3,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -499,7 +499,7 @@
         "description": "Mechanism, implementation, and application of systems that improve automatically based on past experience, including classification, density estimation, clustering, and online learning tasks and solutions. ",
         "topics": [],
         "difficulty": 3,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -516,7 +516,7 @@
         "description": "Computer vision system design. Segmentation and representation of regions and boundaries; image filtering; object recognition; advanced topics (examples: texture, stereo, color); applications. Programming assignments. ",
         "topics": [],
         "difficulty": 3,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -533,7 +533,7 @@
         "description": "Provides an in-depth overview of data science in engineering. Topics include modeling, storage, manipulation, integration, classification, analysis, visualization, information extraction, and big data in the engineering domain. ",
         "topics": [],
         "difficulty": 2.5,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -550,7 +550,7 @@
         "description": "Design of natural language processing systems; part-of speech tagging, statistical and symbolic parsers; semantic interpretation; discourse and dialogue processing; natural language generation; applications. ",
         "topics": [],
         "difficulty": 3,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -567,7 +567,7 @@
         "description": "User interface design, implementation, and evaluation: user-centered design methodologies, windowing systems, I/O devices and techniques, event-loop programming, user studies. Programming projects. ",
         "topics": [],
         "difficulty": 2,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -584,7 +584,7 @@
         "description": "Introduces students to the field of natural user interactions, including topics such as design principles, hardware-to-software development pipeline (including various existing platforms, toolkits and APIs), as well as effective evaluation techniques. ",
         "topics": [],
         "difficulty": 2,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -601,7 +601,7 @@
         "description": "Geospatial visualization, scientific visualization, medical visualization, information visualization, and social network visualization, interaction, data analysis, human factors, dynamic data, privacy, uncertainty, data transforms. ",
         "topics": [],
         "difficulty": 3,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -618,7 +618,7 @@
         "description": "Principles of interactive computer graphics. Raster and vector display, techniques and hardware considerations. Introduction to two-dimensional and three dimensional rendering. ",
         "topics": [],
         "difficulty": 3,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -635,7 +635,7 @@
         "description": "Theory and practice of video game design and programming. Students will form interdisciplinary teams, to design, build and demonstrate video games or related interactive simulation environments. ",
         "topics": [],
         "difficulty": 2.5,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -652,7 +652,7 @@
         "description": "Creative Coding investigates how contemporary computational techniques can inspire novel forms of art making, providing students with the skills to make use of technology for expressive purposes. ",
         "topics": [],
         "difficulty": 2.5,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -669,7 +669,7 @@
         "description": "Virtual reality, augmented reality, and mixed reality environments, display devices, input devices, tracking, navigation, interaction, collaboration, generating visuals and sounds, software tools, applications, evaluation, safety. ",
         "topics": [],
         "difficulty": 3,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -686,7 +686,7 @@
         "description": "Software life-cycle model, requirement specification techniques, large-scale software design techniques and tools, implementation issues, testing and debugging techniques, software maintenance. ",
         "topics": [],
         "difficulty": 5,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -703,7 +703,7 @@
         "description": "Provides a broad but solid overview of engineering distributed object for cloud computing. Students will learn the theory and principles of engineering distributed objects for cloud environments. Programming assignments required. ",
         "topics": [],
         "difficulty": 5,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -720,7 +720,7 @@
         "description": "Advanced concepts in software development: requirements engineering, cost estimation, risk analysis, extreme programming, regression test case selection, and design patterns.  Software lab assignments required.  ",
         "topics": [],
         "difficulty": 5,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -737,7 +737,7 @@
         "description": "Network protocols, algorithms, and software issues. Topics include the Open Systems Interconnect model, data link, network and transport layers, TCP/IP, ATM, mobile networks. ",
         "topics": [],
         "difficulty": 5,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -754,7 +754,7 @@
         "description": "Foundations of parallel and distributed processing; clusters and parallel systems; communication primitives; programming with MPI; scalability; distributed graph algorithms; distributed mutual exclusion, deadlock detection, peer-to-peer systems. ",
         "topics": [],
         "difficulty": 5,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -771,7 +771,7 @@
         "description": "Focuses on the foundations and basic principles of concurrent programming, covering high-level notions of concurrent correctness and connecting those abstract concepts to real-world programming constructs and algorithms used in practice. ",
         "topics": [],
         "difficulty": 5,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -788,7 +788,7 @@
         "description": "Explore the foundations of high-performance computing (HPC), the architecture of supercomputers, and the challenges in developing massive heterogeneous systems to address complex real-world problems. ",
         "topics": [],
         "difficulty": 5,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -805,7 +805,7 @@
         "description": "Kernel design and implementation; process management; effective management of machine resources: resource allocation and scheduling, mutual exclusion, deadlock avoidance, memory management policies, devices and file systems, and client-server systems. ",
         "topics": [],
         "difficulty": 5,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -822,7 +822,7 @@
         "description": "Understanding the many systems factors that affect program performance, including program design for concurrent computing, profiling and program optimization. ",
         "topics": [],
         "difficulty": 5,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -839,7 +839,7 @@
         "description": "Design principles of computer architecture. Topics include: instruction set architecture, pipelining, instruction-level parallelism, caches, main memory, and thread-level parallelism. ",
         "topics": [],
         "difficulty": 5,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -856,7 +856,7 @@
         "description": "Introduces basic concepts of security and privacy, and covers the principles and practice of network security. Given the ubiquitousness of network communications, this course explores a range of systems and applications, and the threats they face. ",
         "topics": [],
         "difficulty": 5,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -873,7 +873,7 @@
         "description": "Introduction to interactive theorem proving and program logics, with the goal of specifying and proving the correctness of programs. Learn to develop machine-assisted formal mathematical proofs and prove that programs satisfy their specifications. ",
         "topics": [],
         "difficulty": 5,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -890,7 +890,7 @@
         "description": "Language translation: lexical analysis, parsing schemes, symbol table management, syntax and semantic error detection, and code generation. Development of fully-functional compiler. ",
         "topics": [],
         "difficulty": 5,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -907,7 +907,7 @@
         "description": "Data abstraction, classes and objects, messages and methods, polymorphism and dynamic binding, inheritance. Object-oriented design. Pure and hybrid object-oriented languages. ",
         "topics": [],
         "difficulty": 5,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -924,7 +924,7 @@
         "description": "OO Paradigm: classes, messages, methods, variables, inheritance, polymorphism; the C++ and Java languages; programming labs required. ",
         "topics": [],
         "difficulty": 5,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -941,7 +941,7 @@
         "description": "Definition, design, and implementation of programming languages. Syntactic and semantic description; variable bindings, control and data structures, parsing, code generation, optimization; exception handling; data abstraction. ",
         "topics": [],
         "difficulty": 5,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -958,7 +958,7 @@
         "description": "Contemporary topics involving legal, public policy, and/or ethical issues in computing, especially privacy, security, and surveillance. ",
         "topics": [],
         "difficulty": 5,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -975,7 +975,7 @@
         "description": "Design and implementation of mobile applications; operating systems, object-oriented languages and programming environments for mobile platforms; integration with hardware components; and location-aware applications. Programming assignments required. ",
         "topics": [],
         "difficulty": 3,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -992,7 +992,7 @@
         "description": "Practical experience in design and development of wearable and nearable devices. Acquisition and processing of sensors data. Design and development of user-friendly user interface. ",
         "topics": [],
         "difficulty": 4,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -1026,7 +1026,7 @@
         "description": "Data mining for very large datasets from a foundational and practical standpoint including similarity search, data-stream processing, advanced technology for search engines, recommendation systems, and graph analytics. ",
         "topics": [],
         "difficulty": 5,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -1060,7 +1060,7 @@
         "description": "Concepts, design, and programming of multi-process and distributed systems; inter-process communications; fault tolerance; distributed programming semantics. Programming assignments and project required. ",
         "topics": [],
         "difficulty": 5,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -1077,7 +1077,7 @@
         "description": "Building and programming secure systems; protecting systems from threats and reduction of vulnerabilities; Includes application, host and network security. ",
         "topics": [],
         "difficulty": 5,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -1094,7 +1094,7 @@
         "description": "Foundational concepts: encryption schemes, hash functions, message authentication codes, digital signatures. Practical systems: stream and block ciphers, SHA. Advanced topics: secure computation, zero-knowledge proofs, blockchain. ",
         "topics": [],
         "difficulty": 5,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -1111,7 +1111,7 @@
         "description": "Study of technologies for augmentation of human capabilities; human limitations; implants and wearable technologies; implants; brain-computer interfaces; exoskeletons; sensors and networks. Includes project work. ",
         "topics": [],
         "difficulty": 5,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -1128,7 +1128,7 @@
         "description": "Topics of mutual interest to a faculty member and a group of students. Offered as announced by department bulletin or the Timetable. ",
         "topics": [],
         "difficulty": 2,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -1145,7 +1145,7 @@
         "description": "Multidisciplinary computer science topics for undergrad seniors and graduate student that vary from term to term depending on current student and instructor interests. ",
         "topics": [],
         "difficulty": 5,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
@@ -1162,7 +1162,7 @@
         "description": "Graduating seniors will be provided with information regarding future career paths and will provide information regarding the program to be used for assessment purposes. Students take the CS Major Field Exam as part of this course. ",
         "topics": [],
         "difficulty": 5,
-        "favorite": true,
+        "favorite": false,
         "prereqs": [],
         "typical-yr": "freshmen",
         "sections": [
