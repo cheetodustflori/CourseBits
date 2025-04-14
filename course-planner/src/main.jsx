@@ -5,6 +5,7 @@ import Details from './components/Course-Details/Details';
 import Header from './components/Header/Header';
 import Button from  './components/Buttons/buttons';
 import Sidebar from './components/Sidebar/Sidebar';
+import Footer from './components/Footer/Footer';
 
 function HomePage() {
   return (
@@ -12,6 +13,7 @@ function HomePage() {
           <Header />
           <Button/>
           <Sidebar/>
+          <Footer />
       </>
   );
 }

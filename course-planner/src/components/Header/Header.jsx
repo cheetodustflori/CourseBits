@@ -1,5 +1,6 @@
+import { Link } from 'react-router-dom';
 import React, { useState } from "react";
-import "./styles.css";
+import styles from "./styles.module.css";
 import CourseList from "../Course-Tile/CourseList.jsx";
 import courseInfo from "../../assets/courses.json";
 
@@ -20,11 +21,13 @@ export default function Header() {
   return (
     <>
       <header>
-        <div id="red-box"></div>
-        <div id="circle" className="circle">
-          <h3 id="uic-text">UIC</h3>
-        </div>
-        <div id="text">Computer Science Courses: By the Students</div>
+        <div id={styles.redBox}></div>
+        <Link to="/">
+          <div id={styles.circle} className={styles.circle}>
+            <h3 id={styles.uicText}>UIC</h3>
+          </div>
+        </Link>
+        <div id={styles.text}>CS Insider: Made By the Students For the Students</div>
       </header>
 
 

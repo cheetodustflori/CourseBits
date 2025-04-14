@@ -1,8 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import CourseCard from '../Course-Description/course-description'; 
 import styles from './Details.module.css';
 import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
+import { Prereqs } from './SubComps';
+import Button from '../Buttons/buttons';
+import courseInfo from '../../assets/courses.json';
 
 export default function Details() {
     const { id } = useParams(); // Get the course ID from the URL
@@ -40,11 +44,17 @@ export default function Details() {
 
             {/* Right Side - Course Details */}
             <div className={styles.courseDetails}>
-                <h1>Details</h1>
+                <div style={{display: 'flex', alignItems: 'center'}}>
+                    <h1 style={{fontSize: 25, margin: 0}}>Details</h1>
+                    <div style={{flexGrow: 1}}></div>
+                    <Link to="/">
+                        <button className={styles.goBackButton}>Go back</button>
+                    </Link>
+                </div>
                
                 <div className={styles.infoSection}>
                 <p>
-                        <strong>Typical Year:</strong> {course.typical_yr}
+                        <strong>Typical Year:</strong> {course.typicalYear}
                     </p>
                     <p>
                         <strong>Difficulty:</strong> {course.difficulty}/5
@@ -60,9 +70,11 @@ export default function Details() {
                     <h2>Prerequisites</h2>
                     {course.prereqs.length > 0 ? (
                         <ul>
-                            {course.prereqs.map((prereq, index) => (
-                                <li className={styles.prereqsItem} key={index}>CS {prereq}</li>
-                            ))}
+                            {course.prereqs.map((prereq, index) => {
+                                let coursePrereq = courseInfo.find(item => item.id === prereq);
+                                return (coursePrereq!==undefined) ? <Prereqs key={index} preq={coursePrereq}  /> :
+                                <div key={index} className={styles.prereqsLayout}>CS {prereq} </div>
+                            })}
                         </ul>
                     ) : (
                         <p>No prerequisites for this course.</p>
@@ -84,6 +96,7 @@ export default function Details() {
                 </div>
             </div>
         </div>
+        <Footer />
         </div>
     );
 }
