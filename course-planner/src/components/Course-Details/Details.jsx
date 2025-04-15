@@ -53,16 +53,9 @@ export default function Details() {
                 </div>
                
                 <div className={styles.infoSection}>
-                <p>
-                        <strong>Typical Year:</strong> {course.typicalYear}
-                    </p>
-                    <p>
-                        <strong>Difficulty:</strong> {course.difficulty}/5
-                    </p>
-                    
-                    <p>
-                        <strong>Course Type:</strong> {course['course-type']}
-                    </p>
+                    <p><strong>Typical Year:</strong> {course.typicalYear}</p>
+                    <p><strong>Difficulty:</strong> {course.difficulty}/5</p>
+                    <p><strong>Course Type:</strong> {course['course-type']}</p>
                 </div>
 
 
@@ -85,15 +78,15 @@ export default function Details() {
                     <h2>Course Sections</h2>
                     <ul>
                         {course.sections.map((section, index) => (
-                            <li key={index}>{section}</li>
+                            <li style={{margin: '1rem'}} key={index}>{section}</li>
                         ))}
                     </ul>
                 </div>
 
-                <div className={styles.sectionsSection}>
+                {/* <div className={styles.sectionsSection}>
                     <h2>Student Reviews</h2>
 
-                </div>
+                </div> */}
             </div>
         </div>
         <Footer />
