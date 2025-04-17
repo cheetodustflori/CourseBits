@@ -25,7 +25,7 @@
         "typical_yr": "freshmen",
         "sections": ["lecture", "lab"],
         "image-url": "/../../assets/flowcharts/general.png",
-        "course-type": "technical-elective"
+        "course-type": "engineering-requirement"
     },
     {
         "name": "Programming for Engineers with MatLab",
@@ -122,8 +122,8 @@
         "prereqs": [],
         "typicalYear": "freshmen",
         "sections": ["VARIES"],
-        "image-url": "/../../assets/flowcharts/151.png",
-        "course-type": "engineering-requirement"
+        "image-url": "/../../assets/flowcharts/general.png",
+        "course-type": "technical-elective"
     },
     {
         "name": "Programming Practicum",
@@ -193,7 +193,7 @@
         "typicalYear": "sophomore",
         "sections": ["VARIES"],
         "image-url": "/../../assets/flowcharts/general.png",
-        "course-type": "engineering-requirement"
+        "course-type": "technical-elective"
     },
     {
         "name": "Languages and Automata",
@@ -249,7 +249,7 @@
         "typicalYear": "junior",
         "sections": ["lecture"],
         "image-url": "/../../assets/flowcharts/general.png",
-        "course-type": "engineering-requirement"
+        "course-type": "technical-elective"
     },
     {
         "name": "Systems Programming",
@@ -305,7 +305,7 @@
         "typicalYear": "junior",
         "sections": ["lecture"],
         "image-url": "/../../assets/flowcharts/general.png",
-        "course-type": "engineering-requirement"
+        "course-type": "technical-elective"
     },
     {
         "name": "Computer Science Practicum",
@@ -319,7 +319,7 @@
         "typicalYear": "junior",
         "sections": ["lab-discussion"],
         "image-url": "/../../assets/flowcharts/general.png",
-        "course-type": "engineering-requirement"
+        "course-type": "technical-elective"
     },
     {
         "name": "Special Topics in Computer Science",
@@ -558,7 +558,7 @@
         "typicalYear": "senior",
         "sections": ["lecture-discussion"],
         "image-url": "/../../assets/flowcharts/general.png",
-        "course-type": "engineering-requirement"
+        "course-type": "technical-elective"
     },
     {
         "name": "Software Engineering I",
@@ -572,7 +572,7 @@
         "typicalYear": "senior",
         "sections": ["lecture-discussion"],
         "image-url": "/../../assets/flowcharts/cs440.png",
-        "course-type": "engineering-requirement"
+        "course-type": "technical-requirement"
     },
     {
         "name": "Engineering Distributed Objects For Cloud Computing",
@@ -586,7 +586,7 @@
         "typicalYear": "senior",
         "sections": ["lecture-discussion"],
         "image-url": "/../../assets/flowcharts/general.png",
-        "course-type": "engineering-requirement"
+        "course-type": "technical-elective"
     },
     {
         "name": "Software Engineering II",
@@ -600,7 +600,7 @@
         "typicalYear": "senior",
         "sections": ["lecture-discussion"],
         "image-url": "/../../assets/flowcharts/general.png",
-        "course-type": "engineering-requirement"
+        "course-type": "technical-elective"
     },
     {
         "name": "Introduction to Networking",
@@ -614,7 +614,7 @@
         "typicalYear": "senior",
         "sections": ["lecture-discussion"],
         "image-url": "/../../assets/flowcharts/cs450.png",
-        "course-type": "engineering-requirement"
+        "course-type": "technical-elective"
     },
     {
         "name": "Introduction to Parallel and Distributed Processing",
@@ -628,7 +628,7 @@
         "typicalYear": "senior",
         "sections": ["lecture-discussion"],
         "image-url": "/../../assets/flowcharts/general.png",
-        "course-type": "engineering-requirement"
+        "course-type": "technical-elective"
     },
     {
         "name": "Principles of Concurrent Programming",
@@ -642,7 +642,7 @@
         "typicalYear": "senior",
         "sections": ["lecture-discussion"],
         "image-url": "/../../assets/flowcharts/general.png",
-        "course-type": "engineering-requirement"
+        "course-type": "technical-elective"
     },
     {
         "name": "Introduction to High Performance Computing",
@@ -656,7 +656,7 @@
         "typicalYear": "senior",
         "sections": ["lecture-discussion"],
         "image-url": "/../../assets/flowcharts/general.png",
-        "course-type": "engineering-requirement"
+        "course-type": "technical-elective"
     },
     {
         "name": "Operating Systems Design and Implementation",
@@ -670,7 +670,7 @@
         "typicalYear": "senior",
         "sections": ["lecture-discussion"],
         "image-url": "/../../assets/flowcharts/cs461.png",
-        "course-type": "engineering-requirement"
+        "course-type": "technical-elective"
     },
     {
         "name": "Systems Performance and Concurrent Computing",
@@ -684,7 +684,7 @@
         "typicalYear": "senior",
         "sections": ["lecture-discussion"],
         "image-url": "/../../assets/flowcharts/general.png",
-        "course-type": "engineering-requirement"
+        "course-type": "technical-elective"
     },
     {
         "name": "Computer Architecture",
@@ -698,7 +698,7 @@
         "typicalYear": "senior",
         "sections": ["lecture-discussion"],
         "image-url": "/../../assets/flowcharts/general.png",
-        "course-type": "engineering-requirement"
+        "course-type": "technical-elective"
     },
     {
         "name": "Network Security",
@@ -712,7 +712,7 @@
         "typicalYear": "senior",
         "sections": ["lecture-discussion"],
         "image-url": "/../../assets/flowcharts/general.png",
-        "course-type": "engineering-requirement"
+        "course-type": "technical-elective"
     },
     {
         "name": "Provably Correct Programming",

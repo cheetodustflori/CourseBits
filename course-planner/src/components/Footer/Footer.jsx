@@ -5,7 +5,7 @@ export default function Footer() {
         <div className={styles.footer}>
             <p>Made with&nbsp;
                 <a style={{color: '#FF8181'}} href="https://github.com/cheetodustflori/UIC-Course-Planner">{`<`}3</a>
-                &nbsp;by the WiCS Dev Team © 2024</p> 
+                &nbsp;by the WiCS Dev Team © Fall 2024</p> 
         </div>
     )
 };
