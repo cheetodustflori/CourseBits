@@ -206,7 +206,7 @@
         "prereqs": ["151","251"],
         "typicalYear": "junior",
         "sections": ["discussion/recitation", "lecture"],
-        "image-url": "/../../assets/flowcharts/general.png",
+        "image-url": "/../../assets/flowcharts/cs301.png",
         "course-type": "engineering-requirement"
     },
     {
