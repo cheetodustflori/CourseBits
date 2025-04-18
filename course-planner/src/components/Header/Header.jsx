@@ -27,7 +27,7 @@ export default function Header() {
             <h3 id={styles.uicText}>UIC</h3>
           </div>
         </Link>
-        <div id={styles.text}>CS Insider: Made By the Students For the Students</div>
+        <div id={styles.text}>Course Bits: Made By the Students For the Students</div>
       </header>
 
 
