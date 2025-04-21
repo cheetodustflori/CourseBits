@@ -1,3 +1,4 @@
+
 import { Link } from 'react-router-dom';
 
 // Sub-components for sections of the details page

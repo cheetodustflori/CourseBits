@@ -17,6 +17,7 @@ export default function CourseTile({ courseTile }) {
             <div className={styles.top}>
                 <span>CS {courseTile.id}</span>
                 <meter max={5.0} min={0.0} value={course.difficulty} low={2} high={3} optimum={0.5}></meter>
+
                 <StudentFavorite courseId={courseTile.id} />
                 <span className={styles.creditHours}>{courseTile.credit_hours}</span>
             </div>

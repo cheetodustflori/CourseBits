@@ -79,6 +79,7 @@ export default function Details() {
                     <ul>
                         {course.sections.map((section, index) => (
                             <li style={{margin: '1rem'}} key={index}>{section}</li>
+
                         ))}
                     </ul>
                 </div>
@@ -90,6 +91,7 @@ export default function Details() {
             </div>
         </div>
         <Footer />
+
         </div>
     );
 }

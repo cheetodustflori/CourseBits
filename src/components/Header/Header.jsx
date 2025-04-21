@@ -1,3 +1,4 @@
+
 import { Link } from 'react-router-dom';
 import React, { useState } from "react";
 import styles from "./styles.module.css";
@@ -28,6 +29,7 @@ export default function Header() {
           </div>
         </Link>
         <div id={styles.text}>Course Bits: Made By the Students For the Students</div>
+
       </header>
 
 

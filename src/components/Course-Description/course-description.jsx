@@ -13,7 +13,7 @@ export default function CourseCard({ course }) {
           <h1 className="course-id">CS {course.id}</h1>
           <div className="favorite-icon">
             {/* If course is labeled a class favorite show a gold star next to it  */}
-            {course.favorite === true && <FaStar color="gold" />}
+            {course.favorite === "true" && <FaStar color="gold" />}
           </div>
         </div>
         <div className="course-name">
