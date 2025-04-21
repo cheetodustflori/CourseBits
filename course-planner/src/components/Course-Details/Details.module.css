@@ -44,6 +44,11 @@
     font-weight: bold;
 }
 
+.prereqsLayout:hover {
+    background-color: #120b4a;
+    color: white;
+}
+
 .prereqsCourseNumber{
     font-weight: bold;
     margin: 0px 5px;
@@ -155,4 +160,9 @@ p {
     margin: 10px;
     border: solid 2px black;
     font-weight: bold;
+}
+
+.goBackButton:hover {
+    background-color: gray;
+    color: #120b4a;
 }
