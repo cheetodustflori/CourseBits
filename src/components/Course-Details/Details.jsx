@@ -14,13 +14,13 @@ export default function Details() {
 
     useEffect(() => {
         // Fetch the data
-        fetch('/src/assets/courses.json') // Update the path to your actual JSON file location
-            .then((response) => response.json())
-            .then((data) => {
-                const foundCourse = data.find((course) => course.id === id);
+        // fetch('assets/courses.json') // Update the path to your actual JSON file location
+        //     .then((response) => response.json())
+        //     .then((data) => {
+                const foundCourse = courseInfo.find((course) => course.id === id);
                 setCourse(foundCourse);
-            })
-            .catch((error) => console.error('Error fetching course data:', error));
+            // })
+            // .catch((error) => console.error('Error fetching course data:', error));
     }, [id]);
 
     if (!course) {
