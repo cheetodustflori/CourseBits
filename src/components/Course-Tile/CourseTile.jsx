@@ -53,7 +53,7 @@ function StudentFavorite({courseId}){
     const course = courseInfo.find(course => course.id === courseId);
     // const isStudentFavorite = courseInfo[0].favorite;
     if (course?.favorite){
-        return <img src="/../../../assets/star.jpg" style={{ width: 20, height: 20 }}/>
+        return <img src="./src/assets/star.jpg" style={{ width: 20, height: 20 }}/>
     }
     
     return null;

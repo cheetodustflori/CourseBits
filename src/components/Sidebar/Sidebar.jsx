@@ -13,7 +13,7 @@ export default function Sidebar () {
         </div>
         <h3>Student Favorites</h3>
         <span className="favorite-icon">
-          <img src="/../assets/star.jpg" alt="Star" style={{ width: 25, height: 25 }} />
+          <img src="./src/assets/star.jpg" alt="Star" style={{ width: 25, height: 25 }} />
         </span>
         <h3>Course Topics</h3>
         <span className="course-topic">Topic</span>
