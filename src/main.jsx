@@ -20,7 +20,7 @@ function HomePage() {
 
 function App() {
   return (
-      <BrowserRouter>
+      <BrowserRouter basename="/CourseBits">
           <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/course/:id" element={<Details />} />
