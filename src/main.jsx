@@ -5,6 +5,12 @@ import Details from './components/Course-Details/Details';
 import Header from './components/Header/Header';
 import Button from  './components/Buttons/Buttons';
 import Sidebar from './components/Sidebar/Sidebar';
+import { createRoot } from 'react-dom/client';
+
+const rootElement = document.getElementById('root');
+const root = createRoot(rootElement);
+
+
 
 function HomePage() {
   return (
@@ -26,4 +32,6 @@ function App() {
       </BrowserRouter>
   );
 }
-ReactDOM.render(<App />, document.getElementById('root'));
+
+// ReactDOM.render(<App />, document.getElementById('root'));
+root.render(<App />);
