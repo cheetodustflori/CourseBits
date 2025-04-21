@@ -1,3 +1,6 @@
+
+import { Link } from 'react-router-dom';
+
 // Sub-components for sections of the details page
 // Includes: prerequisites and reviews
 
@@ -6,11 +9,13 @@ import styles from "./Details.module.css";
 // Component template for the prerequisites buttons of the course
 export function Prereqs({ preq }) {
   return (
-    <div className={styles.prereqsLayout}>
-      <p className={styles.prereqsCourseNumber}>{preq.courseNumber}</p>
-      <p className={styles.prereqsCourseName}>{preq.courseName}</p>
-      <p className={styles.prereqsCourseHours}>{preq.courseHours}</p>
-    </div>
+    <Link style={{textDecoration: 'none'}} to={`/course/${preq.id}`}>
+      <div className={styles.prereqsLayout}>
+        <p className={styles.prereqsCourseNumber}>CS {preq.id}</p>
+        <p className={styles.prereqsCourseName}>{preq.name}</p>
+        <p className={styles.prereqsCourseHours}>{preq.credit_hours}</p>
+      </div>
+    </Link>
   );
 }
 

@@ -18,6 +18,7 @@ export default function CourseCard({ course }) {
         </div>
         <div className="course-name">
               <div className = "course-title">{course.name}</div>  
+              <div style={{flexGrow: 1}}></div>
               <div className = "course-credit"><i>{course.credit_hours} Credit Hours</i></div>  
         </div>
         <div className="course-description">

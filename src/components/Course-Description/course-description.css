@@ -1,6 +1,6 @@
 
 .course-card {
-    width: 50%;
+    width: 95%;
     height: 100vh;
     font-family: "Inter", sans-serif; 
 }
@@ -17,6 +17,7 @@
 }
 .course-info {
   padding: 16px;
+  width: 100%;
 }
   
 .course-header {
@@ -63,7 +64,7 @@
 
 .course-title {
     float: left;
-    margin-right: 375px; 
+    max-width: 50%;
  }
 
 .course-credits {
