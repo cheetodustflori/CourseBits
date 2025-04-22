@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import styles from './CourseTile.module.css';
-import courseInfo from '../../assets/courses.json';
+import courseInfo from "/courses.json?url";
+import Star from '../../assets/Star';
 
 
 
@@ -53,7 +54,7 @@ function StudentFavorite({courseId}){
     const course = courseInfo.find(course => course.id === courseId);
     // const isStudentFavorite = courseInfo[0].favorite;
     if (course?.favorite){
-        return <img src="./src/assets/star.jpg" style={{ width: 20, height: 20 }}/>
+        return <Star /> // <img src="./src/assets/star.jpg" style={{ width: 20, height: 20 }}/>
     }
     
     return null;

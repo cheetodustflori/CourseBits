@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./styles.css";
-import CourseList from "../Course-Tile/CourseList.jsx";
-import courseInfo from "../../assets/courses.json";
+import Star from '../../assets/Star';
+
 
 export default function Sidebar () {
 
@@ -13,7 +13,7 @@ export default function Sidebar () {
         </div>
         <h3>Student Favorites</h3>
         <span className="favorite-icon">
-          <img src="./src/assets/star.jpg" alt="Star" style={{ width: 25, height: 25 }} />
+          <Star style={{ width: 25, height: 25, cursor: 'default' }} />
         </span>
         <h3>Course Topics</h3>
         <span className="course-topic">Topic</span>

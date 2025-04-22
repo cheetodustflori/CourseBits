@@ -120,10 +120,11 @@ header {
 }
 
 .favorite-icon {
-    position: relative;
-    left: -20px;
+  position: relative;
+  left: -20px;
   font-size: 18px;
   z-index: 99;
+  cursor: default
 }
 
 .course-topic {

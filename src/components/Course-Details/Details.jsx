@@ -5,8 +5,7 @@ import styles from './Details.module.css';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import { Prereqs } from './SubComps';
-import Button from '../Buttons/buttons';
-import courseInfo from '../../assets/courses.json';
+import courseInfo from "/courses.json?url"
 
 export default function Details() {
     const { id } = useParams(); // Get the course ID from the URL
@@ -14,7 +13,12 @@ export default function Details() {
 
     useEffect(() => {
         // Fetch the data
-        fetch('/src/assets/courses.json') // Update the path to your actual JSON file location
+        fetch('../courses.json',{
+      headers : { 
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+       }
+    }) // Update the path to your actual JSON file location
             .then((response) => response.json())
             .then((data) => {
                 const foundCourse = data.find((course) => course.id === id);
@@ -47,7 +51,7 @@ export default function Details() {
                 <div style={{display: 'flex', alignItems: 'center'}}>
                     <h1 style={{fontSize: 25, margin: 0}}>Details</h1>
                     <div style={{flexGrow: 1}}></div>
-                    <Link to="/">
+                    <Link to="//">
                         <button className={styles.goBackButton}>Go back</button>
                     </Link>
                 </div>

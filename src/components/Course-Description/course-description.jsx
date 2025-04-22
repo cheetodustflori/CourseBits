@@ -7,13 +7,13 @@ export default function CourseCard({ course }) {
   return (
     <div className="course-card">
         {/* Image of class flow */}
-        <img className="picture-container" src={course.imageUrl}/>
+        <img className="picture-container" src={`/CourseBits${course.imageUrl}`}/>
       <div className="course-info">
         <div className="course-header">
           <h1 className="course-id">CS {course.id}</h1>
           <div className="favorite-icon">
             {/* If course is labeled a class favorite show a gold star next to it  */}
-            {course.favorite === "true" && <FaStar color="gold" />}
+            {course.favorite === true && <FaStar color="gold" />}
           </div>
         </div>
         <div className="course-name">
@@ -46,7 +46,7 @@ CourseCard.propTypes = {
     description: PropTypes.string.isRequired,
     credit_hours: PropTypes.string.isRequired,
     topics: PropTypes.arrayOf(PropTypes.string).isRequired,
-    favorite: PropTypes.string.isRequired,
+    favorite: PropTypes.bool.isRequired,
     imageUrl: PropTypes.string.isRequired,
   }).isRequired,
 };
