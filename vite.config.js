@@ -5,5 +5,10 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: '/CourseBits/',
-
+  server: {
+    fs: {
+      strict: false,
+    },
+    historyApiFallback: true,
+  },
 })

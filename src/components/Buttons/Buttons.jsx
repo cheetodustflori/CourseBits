@@ -4,22 +4,20 @@ import CourseList from "../Course-Tile/CourseList.jsx";
 // import courseInfo from "/courses.json";
 
 export default function Button() {
-  const [courseInfo, setCourseInfo] = useState(null);
-  const [filteredCourses, setFilteredCourses] = useState(courseInfo);
+  const [courseInfo, setCourseInfo] = useState([]);
+  const [filteredCourses, setFilteredCourses] = useState([]);
   const [activeType, setActiveType] = useState("all"); 
 
   useEffect(() => {
-    fetch('./courses.json',{
-      method: "POST",
-      headers: { "Content-Type": "application/json" }
-    })
+    fetch(`${import.meta.env.BASE_URL}courses.json`)
     .then((response) => response.json())
     .then((data) => {
-      setCourseInfo(data)
+      setCourseInfo(data);
+      setFilteredCourses(data);
     })
     .catch((error) => console.error('Error fetching course data:', error));
     filterCourses("all");
-  }, [activeType])
+  }, [])
 
   const filterCourses = (type) => {
     if (type === "all") {
