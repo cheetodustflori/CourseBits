@@ -2,8 +2,7 @@
 import { Link } from 'react-router-dom';
 import React, { useState } from "react";
 import styles from "./styles.module.css";
-import CourseList from "../Course-Tile/CourseList.jsx";
-import courseInfo from "../../assets/courses.json";
+import courseInfo from "/courses.json?url";
 
 export default function Header() {
   const [filteredCourses, setFilteredCourses] = useState(courseInfo);
@@ -28,7 +27,7 @@ export default function Header() {
             <h3 id={styles.uicText}>UIC</h3>
           </div>
         </Link>
-        <div id={styles.text}>Course Bits: Made By the Students For the Students</div>
+        <div id={styles.text}>CourseBits: Made By the Students For the Students</div>
 
       </header>
 
