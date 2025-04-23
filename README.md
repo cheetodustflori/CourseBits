@@ -45,8 +45,21 @@ Read more on getting started with Create React App + Vite [here](https://vite.de
 
 ## 🔔 Credits
 Developed by: 
-
 - [Florianne Che](https://github.com/cheetodustflori) (Project Dev Lead)
-- 
-
+- [Michelle Vences-Matias](https://github.com/michellevences)
+- [Elizabeth Ng](https://github.com/elizabethn1)
+- [Michelle Ye](https://github.com/microwaves22)
+- [Josephine Lee](https://github.com/abyssaldragonz)
+- [Srijani Prekki](https://github.com/srijanipre)
+- [Valeria Herrera](https://github.com/vherre)
+- [Julia Bowman](https://github.com/jbowma24)
+- [Nastaran Darabi]()
+- [Valeria Sanchez](https://github.com/DeadflowersV)
+- [Fiza Bajwa](https://github.com/fizabajwa25!)
+- [Asha Thomas](https://github.com/asha828)
+- [Safa Patel](https://github.com/safapatel)
+- [Kira Fox](https://github.com/kfox808)
+- [Cynthia Sanchez Vazquez](https://github.com/csanvaz)
+- [Minh Nguyet Pham](https://github.com/pmn1027)
+- [Mehtab Kaur](https://github.com/mxkr08)
 <br> <br> <br>

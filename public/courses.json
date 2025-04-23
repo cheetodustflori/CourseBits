@@ -74,7 +74,7 @@
         "id": "113",
         "credit_hours": "3",
         "description": "Introduction to programming using law and public policy as the context for programming; control structures, variables, simple and aggregate data types; problem-solving techniques; legal topics: security, privacy, encryption, and predictive policing. ",
-        "topics": ["Programming Basics","Security", "Privacy"],
+        "topics": ["Programming Basics","Law and Legal", "Public Policy"],
         "difficulty": 1,
         "favorite": false,
         "prereqs": [],

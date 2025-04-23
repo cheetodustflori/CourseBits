@@ -50,7 +50,7 @@ export default function Details() {
           <div style={{ display: "flex", alignItems: "center" }}>
             <h1 style={{ fontSize: 25, margin: 0 }}>Details</h1>
             <div style={{ flexGrow: 1 }}></div>
-            <Link to="/">
+            <Link to="//">
               <button className={styles.goBackButton}>Go back</button>
             </Link>
           </div>
