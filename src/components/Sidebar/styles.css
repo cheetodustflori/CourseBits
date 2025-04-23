@@ -88,12 +88,12 @@ header {
 }
 
 .sidebar {
-  position: absolute;
-  top: 150px;
+  position: fixed;
+  top: 100px;
   right: 20px;
-  width: 150px;
+  width: fit-content;
   padding: 15px;
-  background-color: white;
+  background-color: initial;
   border-radius: 10px;
   font-family: "Inter", sans-serif;
 }

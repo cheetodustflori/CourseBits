@@ -22,7 +22,7 @@ export default function Button() {
   const filterCourses = (type) => {
     if (type === "all") {
       setFilteredCourses(courseInfo); 
-      console.log(filteredCourses)
+      // console.log(filteredCourses)
     } else {
       const filtered = courseInfo.filter((course) => course["course-type"] === type);
       setFilteredCourses(filtered.length > 0 ? filtered : courseInfo);
@@ -34,8 +34,8 @@ export default function Button() {
       return <div>Loading...</div>;
   }
   
-  console.log(courseInfo)
-  console.log(filteredCourses)
+  // console.log(courseInfo)
+  // console.log(filteredCourses)
   return (
     <>
       <div className="button-container" id="buttonspot">

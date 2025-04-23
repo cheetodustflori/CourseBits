@@ -1,13 +1,29 @@
 import { Link } from 'react-router-dom';
 import styles from './CourseTile.module.css';
-import courseInfo from "/courses.json?url";
 import Star from '../../assets/Star';
 
-
-
 export default function CourseTile({ courseTile }) {
+    let levelTint = `#DADADA`
+    switch (Math.floor(courseTile.id / 100)) {
+      case 1:
+        levelTint = `#DADADA`
+        break;
+      case 2:
+        levelTint = `#CACACA`
+        break;
+      case 3:
+        levelTint = `#BABABA`
+          break;
+      case 4:
+        levelTint = `#AAAAAA`
+        break;
+      default:
+        levelTint = `#D9D9D9`
+        break;
+    }
+
     return (
-      <Link to={`/course/${courseTile.id}`} className={styles.courseTileLayout} style={{ textDecoration: 'none' }}>
+      <Link to={`/course/${courseTile.id}`} className={styles.courseTileLayout} style={{ textDecoration: 'none', backgroundColor: `${levelTint}` }}>
         <div className={styles.top}>
           <span>CS {courseTile.id}</span>
           <meter max={5.0} min={0.0} value={courseTile.difficulty} low={2} high={3} optimum={0.5}></meter>
